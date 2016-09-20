@@ -5,7 +5,7 @@
 Паттерн Декоратор динамически наделяет объект новыми возможностями и
 является гибкой альтернативой субклассированию в области расширения функциональности.
 
-![UML](/design_patterns/structural/decorator_UML.svg)
+![UML](/design_patterns/structural/decorator_UML.svg?raw=true)
 
 * Component - абстрактный компонент
 

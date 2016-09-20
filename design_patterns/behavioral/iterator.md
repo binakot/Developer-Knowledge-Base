@@ -5,7 +5,7 @@
 Паттерн Итератор предоставляет механизм последовательного перебора элементов коллекции
 без раскрытия ее внутреннего представления.
 
-![UML](/design_patterns/behavioral/iterator_UML.svg)
+![UML](/design_patterns/behavioral/iterator_UML.svg?raw=true)
 
 * Iterator - абстрактный итератор
 

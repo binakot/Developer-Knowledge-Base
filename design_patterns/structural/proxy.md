@@ -4,7 +4,7 @@
 
 Паттерн Заместитель предоставляет суррогатный объект, управляющий доступом к другому объекту.
 
-![UML](/design_patterns/structural/proxy_UML.svg)
+![UML](/design_patterns/structural/proxy_UML.svg?raw=true)
 
 * Proxy - заместитель
 

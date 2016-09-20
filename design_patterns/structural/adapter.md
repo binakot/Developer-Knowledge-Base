@@ -9,7 +9,7 @@
 
 Адаптер объекта применяет композицию объектов.
 
-![UML](/design_patterns/structural/adapter_UML.svg)
+![UML](/design_patterns/structural/adapter_UML.svg?raw=true)
 
 * Target - целевой интерфейс
 
