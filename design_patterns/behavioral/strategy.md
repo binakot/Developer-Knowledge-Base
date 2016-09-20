@@ -5,7 +5,7 @@
 Паттерн Стратегия определяет семейство алгоритмов, инкапсулирует каждый из них и обеспечивает взаимозаменяемость.
 Он позволяет модифицировать алгоритмы независимо от их использования на стороне клиента.
 
-![UML](https://bitbucket.org/firstmk/pmk/wiki/design_patterns/behavioral/strategy_UML.gif)
+![UML](/design_patterns/behavioral/strategy_UML.gif)
 
 * Strategy - абстрактная стратегия
 

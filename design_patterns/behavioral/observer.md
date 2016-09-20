@@ -5,7 +5,7 @@
 Паттерн Наблюдатель определяет отношение "один-ко-многим" между объектами таким образом,
 что при изменении состояния субъекта наблюдения происходит автоматическое оповещение и обновление всех зависимых объектов-наблюдателей.
 
-![UML](https://bitbucket.org/firstmk/pmk/wiki/design_patterns/behavioral/observer_UML.gif)
+![UML](/design_patterns/behavioral/observer_UML.gif)
 
 * Subject - абстрактный наблюдаемый субъект
 

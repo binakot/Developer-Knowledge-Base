@@ -7,7 +7,7 @@
 организацию очереди или регистрацию запросов,
 а также поддержку отмены операций.
 
-![UML](https://bitbucket.org/firstmk/pmk/wiki/design_patterns/behavioral/command_UML.gif)
+![UML](/design_patterns/behavioral/command_UML.gif)
 
 * Command - абстрактная команда
 

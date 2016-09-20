@@ -2,7 +2,7 @@
 
 Паттерн Посетитель используется для расширения возможностей комбинации объектов в том случае, если инкапсуляция не существенна.
 
-![UML](https://bitbucket.org/firstmk/pmk/wiki/design_patterns/behavioral/visitor_UML.gif)
+![UML](/design_patterns/behavioral/visitor_UML.gif)
 
 * Visitor - абстрактный посетитель
 

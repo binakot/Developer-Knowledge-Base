@@ -3,7 +3,7 @@
 Паттерн Шаблонный Метод задает "скелет" алгоритма в методе, оставляя определение реализации некоторых шагов субклассам.
 Субклассы могут переопределять некоторые части алгоритма без изменения его структуры.
 
-![UML](https://bitbucket.org/firstmk/pmk/wiki/design_patterns/behavioral/template_method_UML.gif)
+![UML](/design_patterns/behavioral/template_method_UML.gif)
 
 * AbstractClass - абстрактный класс
 

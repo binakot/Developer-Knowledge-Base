@@ -2,7 +2,7 @@
 
 Паттерн Посредник используется для централизации сложных взаимодействий и управляющих операций между объектами.
 
-![UML](https://bitbucket.org/firstmk/pmk/wiki/design_patterns/behavioral/mediator_UML.gif)
+![UML](/design_patterns/behavioral/mediator_UML.gif)
 
 * Mediator - абстрактный посредник
 

@@ -6,11 +6,11 @@
 
 Классическая структура паттерна Хранитель:
 
-![UML](https://bitbucket.org/firstmk/pmk/wiki/design_patterns/behavioral/momento_UML.gif)
+![UML](/design_patterns/behavioral/momento_UML.gif)
 
 Нестандартная структура паттерна Хранитель:
 
-![UML2](https://bitbucket.org/firstmk/pmk/wiki/design_patterns/behavioral/momento_UML_2.png)
+![UML2](/design_patterns/behavioral/momento_UML_2.png)
 
 * Memento - Хранитель
 

@@ -3,7 +3,7 @@
 Паттерн Состояние управляет изменением поведения объекта при изменении его внутреннего состояния.
 Внешне это выглядит так, словно объект меняет свой класс.
 
-![UML](https://bitbucket.org/firstmk/pmk/wiki/design_patterns/behavioral/state_UML.gif)
+![UML](/design_patterns/behavioral/state_UML.gif)
 
 * Context - контекст
 

@@ -2,7 +2,7 @@
 
 Паттерн Цепочка Обязанностей используется, когда необходимо предоставить нескольким объектам возможность обработать запрос.
 
-![UML](https://bitbucket.org/firstmk/pmk/wiki/design_patterns/behavioral/chain_of_responsibility_UML.gif)
+![UML](/design_patterns/behavioral/chain_of_responsibility_UML.gif)
 
 * Handler - абстрактный обработчик
 
