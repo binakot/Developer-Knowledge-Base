@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="1000" height="550" xmlns="http://www.w3.org/2000/svg">
+  <title>Iterator Pattern</title>
+  <defs>
+    <style type="text/css">
+      <![CDATA[
+        g{
+          stroke : #000;
+        }
+        rect, path, circle{
+          fill         : #fff;
+          fill-opacity : 0;
+        }
+        rect{
+          stroke-width : 6;
+        }
+        path, circle, line{
+          stroke-width : 2;
+        }
+        text{
+          font-family  : sans-serif;
+          stroke-width : 0;
+        }
+        text.name{
+          font-size    : 25px;
+          font-weight  : bold;
+          text-anchor  : middle;
+        }
+        text.item{
+          font-size    : 25px;
+        }
+        text.visibility{
+          font-size   : 28px;
+          font-weight : bold;
+          font-family : monospace;
+        }
+        text.abstract{
+          font-size   : 25px;
+          font-style  : italic;
+        }
+        text.roll {
+          font-size   : 20px;
+          text-anchor : middle;
+        }
+      ]]>
+    </style>
+  </defs>
+  <g transform="translate(40,40)">
+    <rect width="320" height="132"/>
+    <line x1="0" x2="320" y1="60" y2="60"/>
+    <line x1="0" x2="320" y1="80" y2="80"/>
+    <text x="160" y="45" class="name abstract">Aggregate</text>
+    <text x="30" y="115" class="visibility">+</text>
+    <text x="60" y="115" class="item abstract">iterator()</text>
+  </g>
+  <g transform="translate(40,345)">
+    <rect width="320" height="132"/>
+    <line x1="0" x2="320" y1="60" y2="60"/>
+    <line x1="0" x2="320" y1="80" y2="80"/>
+    <text x="160" y="45" class="name">ConcreteAggregate</text>
+    <text x="30" y="115" class="visibility">+</text>
+    <text x="60" y="115" class="item">iterator()</text>
+  </g>
+  <g transform="translate(640,40)">
+    <rect width="320" height="167"/>
+    <line x1="0" x2="320" y1="60" y2="60"/>
+    <line x1="0" x2="320" y1="80" y2="80"/>
+    <text x="160" y="45" class="name abstract">Iterator</text>
+    <text x="30" y="115" class="visibility">+</text>
+    <text x="60" y="115" class="item abstract">next()</text>
+    <text x="30" y="150" class="visibility">+</text>
+    <text x="60" y="150" class="item abstract">hasNext()</text>
+  </g>
+  <g class="class" transform="translate(640,345)">
+    <rect width="320" height="167"/>
+    <line x1="0" x2="320" y1="60" y2="60"/>
+    <line x1="0" x2="320" y1="80" y2="80"/>
+    <text x="160" y="45" class="name">ConcreteIterator</text>
+    <text x="30" y="115" class="visibility">+</text>
+    <text x="60" y="115" class="item">next()</text>
+    <text x="30" y="150" class="visibility">+</text>
+    <text x="60" y="150" class="item">hasNext()</text>
+  </g>
+  <g transform="translate(200,175)">
+    <desc>class ConcreteAggregate extends Aggregate</desc>
+    <path d="M 0 2 l -15 30 l 30 0 z"/>
+    <line x1="0" y1="32" x2="0" y2="170"/>
+  </g>
+  <g transform="translate(800,210)">
+    <desc>class ConcreteIterator extends Iterator</desc>
+    <path d="M 0 2 l -15 30 l 30 0 z"/>
+    <line x1="0" y1="32" x2="0" y2="135"/>
+  </g>
+  <g transform="translate(360,105)">
+    <desc>Aggregate creates Iterator.</desc>
+    <path d="M 255 -10 l 20 10 l -20 10"/>
+    <line x1="0" y1="0" x2="275" y2="0" stroke-dasharray="6,3"/>
+    <text x="140" y="-10" class="roll">&lt;&lt; create &gt;&gt;</text>
+  </g>
+  <g transform="translate(360,400)">
+    <desc>ConcreteAggregate creates ConcreteIterator.</desc>
+    <path d="M 255 -10 l 20 10 l -20 10"/>
+    <line x1="0" y1="0" x2="275" y2="0" stroke-dasharray="6,3"/>
+    <text x="140" y="-10" class="roll">&lt;&lt; create &gt;&gt;</text>
+  </g>
+  <g transform="translate(360,425)">
+    <desc>ConcreteIterator has ConcreteAggregate</desc>
+    <path d="M 235 0 l 20 10 l 20 -10 l -20 -10 z"/>
+    <line x1="0" y1="0" x2="235" y2="0"/>
+  </g>
+</svg>

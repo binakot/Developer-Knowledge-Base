@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="1000" height="500" xmlns="http://www.w3.org/2000/svg">
+  <title>Facade Pattern</title>
+  <defs>
+    <style type="text/css">
+      <![CDATA[
+        g{
+          stroke : #000;
+        }
+        rect, path, circle{
+          fill         : #fff;
+          fill-opacity : 0;
+        }
+        rect{
+          stroke-width : 6;
+        }
+        path, circle, line{
+          stroke-width : 2;
+        }
+        text{
+          font-family  : sans-serif;
+          stroke-width : 0;
+        }
+        text.name{
+          font-size    : 25px;
+          font-weight  : bold;
+          text-anchor  : middle;
+        }
+        text.item{
+          font-size    : 25px;
+        }
+        text.visibility{
+          font-size   : 28px;
+          font-weight : bold;
+          font-family : monospace;
+        }
+        text.abstract{
+          font-size   : 25px;
+          font-style  : italic;
+        }
+        text.roll {
+          font-size   : 20px;
+          text-anchor : middle;
+        }
+      ]]>
+    </style>
+  </defs>
+  <g transform="translate(40,200)">
+    <rect width="240" height="102"/>
+    <line x1="0" x2="240" y1="60" y2="60"/>
+    <line x1="0" x2="240" y1="80" y2="80"/>
+    <text x="120" y="45" class="name">Facade</text>
+  </g>
+  <g transform="translate(460,200)">
+    <rect width="240" height="102"/>
+    <line x1="0" x2="240" y1="60" y2="60"/>
+    <line x1="0" x2="240" y1="80" y2="80"/>
+    <text x="120" y="45" class="name">ModuleA</text>
+  </g>
+  <g transform="translate(720,50)">
+    <rect width="240" height="102"/>
+    <line x1="0" x2="240" y1="60" y2="60"/>
+    <line x1="0" x2="240" y1="80" y2="80"/>
+    <text x="120" y="45" class="name">ModuleB</text>
+  </g>
+  <g transform="translate(720,350)">
+    <rect width="240" height="102"/>
+    <line x1="0" x2="240" y1="60" y2="60"/>
+    <line x1="0" x2="240" y1="80" y2="80"/>
+    <text x="120" y="45" class="name">ModuleC</text>
+  </g>
+  <g transform="translate(280,250)">
+    <desc>Facade uses ModuleA</desc>
+    <path d="M 3 0 L 175 0"/>
+    <path d="M 155 -10 l 20 10 l -20 10"/>
+  </g>
+  <g transform="translate(160,200)">
+    <desc>Facade uses ModuleB</desc>
+    <path d="M 0 0 L 0 -120 l 555 0"/>
+    <path d="M 535 -130 l 20 10 l -20 10"/>
+  </g>
+  <g transform="translate(160,300)">
+    <desc>Facade uses ModuleC</desc>
+    <path d="M 0 0 L 0 120 l 555 0"/>
+    <path d="M 535 110 l 20 10 l -20 10"/>
+  </g>
+  <!-- 20 / cos(pi/6) = 23.094 -->
+  <g transform="translate(720 100)">
+    <desc>ModuleA uses ModuleB and ModuleB uses ModuleA</desc>
+    <path d="M 0 0 L -164.53 95"/>
+    <g transform="translate(-164.53,95)">
+      <path d="M 12.320 -18.660 L 0 0 L 22.320 -1.339"/>
+    </g>
+    <path d="M -5.196 26.094 L -133.20 100"/>
+    <g transform="translate(-5.196 26.094)">
+      <path d="M -12.320 18.660 L 0 0 L -22.320 1.339"/>
+    </g>
+  </g>
+  <g transform="translate(720 400)">
+    <desc>ModuleA uses ModuleC and ModuleC uses ModuleA</desc>
+    <path d="M -5.196 -3 L -173.20 -100"/>
+    <g transform="translate(-5.196 -3)">
+      <path d="M -12.320 -18.660 L 0 0 L -22.320 -1.339"/>
+    </g>
+    <path d="M 0 -23.094 L -121.24 -93.094"/>
+    <g transform="translate(-121.24,-93.094)">
+      <path d="M 12.320 18.660 L 0 0 L 22.320 1.339"/>
+    </g>
+  </g>
+  <g transform="translate(840,150)">
+    <desc>ModuleB uses ModuleC and ModuleC uses ModuleB</desc>
+    <path d="M -10 0 l 0 195"/>
+    <path d="M -20 175 l 10 20 l 10 -20"/>
+    <path d="M 10 7 l 0 190"/>
+    <path d="M 0 27 l 10 -20 l 10 20"/>
+  </g>
+</svg>

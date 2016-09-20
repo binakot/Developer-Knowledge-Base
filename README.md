@@ -1,1 +1,3 @@
-# Developer-Knowledge-Base
+# База знаний разработчика
+
+[Главная страница](/home.md)
