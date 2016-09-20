@@ -3,22 +3,22 @@
 ### Разработка
 
 + Кодирование
-    * [Именование](/development/coding/naming)
-    * [Форматирование](/development/coding/formatting)
-    * [Комментарии](/development/coding/comments)
-    * [Операторы](/development/coding/operators)
-    * [Методы](/development/coding/methods)
-    * [Классы](/development/coding/classes)
-    * [Обработка ошибок](/development/coding/error_handling)
-    * [Многопоточность](/development/coding/multithreading)
+    * [Именование](/development/coding/naming.md)
+    * [Форматирование](/development/coding/formatting.md)
+    * [Комментарии](/development/coding/comments.md)
+    * [Операторы](/development/coding/operators.md)
+    * [Методы](/development/coding/methods.md)
+    * [Классы](/development/coding/classes.md)
+    * [Обработка ошибок](/development/coding/error_handling.md)
+    * [Многопоточность](/development/coding/multithreading.md)
 + Проектирование
-    * [Архитектура](/development/designing/architecture)
-    * [Тестирование](/development/designing/testing)
-    * [Отладка](/development/designing/debugging)
-    * [Рефакторинг](/development/designing/refactoring)
-    * [Профилирование](/development/designing/profiling)
-    * [Оптимизация](/development/designing/optimization)
-    * [Интеграция](/development/designing/integration)
+    * [Архитектура](/development/designing/architecture.md)
+    * [Тестирование](/development/designing/testing.md)
+    * [Отладка](/development/designing/debugging.md)
+    * [Рефакторинг](/development/designing/refactoring.md)
+    * [Профилирование](/development/designing/profiling.md)
+    * [Оптимизация](/development/designing/optimization.md)
+    * [Интеграция](/development/designing/integration.md)
 
 ### Структуры и алгоритмы обработки данных
 
