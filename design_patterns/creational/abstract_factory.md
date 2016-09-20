@@ -5,7 +5,7 @@
 Паттерн Абстрактная Фабрика предоставляет интерфейс создания семейств
 взаимосвязанных или взаимозависимых объектов без указания их конкретных классов.
 
-![UML](https://bitbucket.org/firstmk/pmk/wiki/design_patterns/creational/abstract_factory_UML.svg)
+![UML](/design_patterns/creational/abstract_factory_UML.svg)
 
 * AbstractFactory - абстрактная фабрика
 

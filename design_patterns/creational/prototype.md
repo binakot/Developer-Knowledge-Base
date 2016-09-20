@@ -2,7 +2,7 @@
 
 Паттерн Прототип используется в тех случаях, когда создание экземпляра класса требует больших затрат ресурсов или занимает много времени.
 
-![UML](https://bitbucket.org/firstmk/pmk/wiki/design_patterns/creational/prototype_UML.gif)
+![UML](/design_patterns/creational/prototype_UML.gif)
 
 * Prototype - абстрактный прототип
 

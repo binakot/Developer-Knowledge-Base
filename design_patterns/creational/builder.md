@@ -2,7 +2,7 @@
 
 Паттерн Строитель инкапсулирует конструирование продукта и позволяет разделить его на этапы.
 
-![UML](https://bitbucket.org/firstmk/pmk/wiki/design_patterns/creational/builder_UML.svg)
+![UML](/design_patterns/creational/builder_UML.svg)
 
 * Builder - абстрактный строитель
 

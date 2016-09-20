@@ -6,7 +6,7 @@
 но позволяет субклассам выбрать класс создаваемого экземпляра.
 Таким образом, Фабричный Метод делегирует операцию создания экземпляра субклассам.
 
-![UML](https://bitbucket.org/firstmk/pmk/wiki/design_patterns/creational/factory_method_UML.svg)
+![UML](/design_patterns/creational/factory_method_UML.svg)
 
 * Product - абстрактый продукт
 
