@@ -2,7 +2,7 @@
 
 Используйте паттерн Приспособленец, если один экземпляр класса может предоставлять много "виртуальных экземпляров".
 
-![UML](https://bitbucket.org/firstmk/pmk/wiki/design_patterns/structural/flyweight_UML.gif)
+![UML](/design_patterns/structural/flyweight_UML.gif)
 
 * Flyweight - абстрактный приспособленец
 

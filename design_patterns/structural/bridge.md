@@ -4,7 +4,7 @@
 
 Паттерн Мост позволяет изменять реализацию и абстракцию, для чего они размещаются в двух разных иерархиях классов.
 
-![UML](https://bitbucket.org/firstmk/pmk/wiki/design_patterns/structural/bridge_UML.svg)
+![UML](/design_patterns/structural/bridge_UML.svg)
 
 * Abstraction - абстракция
 

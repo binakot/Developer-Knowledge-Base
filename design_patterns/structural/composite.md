@@ -3,7 +3,7 @@
 Паттерн Компоновщик объединяет объекты в древовидные структуры для представления иерархий "часть/целое".
 Компоновщик позволяет клиенту выполнять однородные операции с отдельными объектами и их совокупностями.
 
-![UML](https://bitbucket.org/firstmk/pmk/wiki/design_patterns/structural/composite_UML.svg)
+![UML](/design_patterns/structural/composite_UML.svg)
 
 * Component - компонент
 

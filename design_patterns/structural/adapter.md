@@ -9,7 +9,7 @@
 
 Адаптер объекта применяет композицию объектов.
 
-![UML](https://bitbucket.org/firstmk/pmk/wiki/design_patterns/structural/adapter_UML.svg)
+![UML](/design_patterns/structural/adapter_UML.svg)
 
 * Target - целевой интерфейс
 
