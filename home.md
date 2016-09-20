@@ -1,24 +1,24 @@
 ## База знаний разработчика
 
-### Программирование
+### Разработка
 
 + Кодирование
-    * [Именование](https://bitbucket.org/firstmk/pmk/wiki/development/coding/naming)
-    * [Форматирование](https://bitbucket.org/firstmk/pmk/wiki/development/coding/formatting)
-    * [Комментарии](https://bitbucket.org/firstmk/pmk/wiki/development/coding/comments)
-    * [Операторы](https://bitbucket.org/firstmk/pmk/wiki/development/coding/operators)
-    * [Методы](https://bitbucket.org/firstmk/pmk/wiki/development/coding/methods)
-    * [Классы](https://bitbucket.org/firstmk/pmk/wiki/development/coding/classes)
-    * [Обработка ошибок](https://bitbucket.org/firstmk/pmk/wiki/development/coding/error_handling)
-    * [Многопоточность](https://bitbucket.org/firstmk/pmk/wiki/development/coding/multithreading)
+    * [Именование](/development/coding/naming)
+    * [Форматирование](/development/coding/formatting)
+    * [Комментарии](/development/coding/comments)
+    * [Операторы](/development/coding/operators)
+    * [Методы](/development/coding/methods)
+    * [Классы](/development/coding/classes)
+    * [Обработка ошибок](/development/coding/error_handling)
+    * [Многопоточность](/development/coding/multithreading)
 + Проектирование
-    * [Архитектура](https://bitbucket.org/firstmk/pmk/wiki/development/designing/architecture)
-    * [Тестирование](https://bitbucket.org/firstmk/pmk/wiki/development/designing/testing)
-    * [Отладка](https://bitbucket.org/firstmk/pmk/wiki/development/designing/debugging)
-    * [Рефакторинг](https://bitbucket.org/firstmk/pmk/wiki/development/designing/refactoring)
-    * [Профилирование](https://bitbucket.org/firstmk/pmk/wiki/development/designing/profiling)
-    * [Оптимизация](https://bitbucket.org/firstmk/pmk/wiki/development/designing/optimization)
-    * [Интеграция](https://bitbucket.org/firstmk/pmk/wiki/development/designing/integration)
+    * [Архитектура](/development/designing/architecture)
+    * [Тестирование](/development/designing/testing)
+    * [Отладка](/development/designing/debugging)
+    * [Рефакторинг](/development/designing/refactoring)
+    * [Профилирование](/development/designing/profiling)
+    * [Оптимизация](/development/designing/optimization)
+    * [Интеграция](/development/designing/integration)
 
 ### Структуры и алгоритмы обработки данных
 
