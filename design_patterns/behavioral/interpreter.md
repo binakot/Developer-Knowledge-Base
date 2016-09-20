@@ -2,7 +2,7 @@
 
 Паттерн Интерпретатор используется для создания языковых интерпретаторов.
 
-![UML](/design_patterns/behavioral/interpreter_UML.jpg)
+![UML](/design_patterns/behavioral/interpreter_UML.gif)
 
 * AbstractExpression - абстрактное выражение
 

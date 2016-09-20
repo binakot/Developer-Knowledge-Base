@@ -3,7 +3,7 @@
 Паттерн Одиночка гарантирует, что класс имеет только один экземпляр,
 и предоставляет глобальную точку доступа к этому экзепляру.
 
-![UML](/design_patterns/creational/singleton_UML.svg?raw=true)
+![UML](/design_patterns/creational/singleton_UML.png)
 
 * Singleton - одиночка
 

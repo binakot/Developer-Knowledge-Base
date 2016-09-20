@@ -3,7 +3,7 @@
 Паттерн Фасад предоставляет унифицированный интерфейс к группе интерфейсов подсистемы.
 Фасад определяет высокоуровневый интерфейс, упрощающий работу с подсистемой.
 
-![UML](/design_patterns/structural/facade_UML.svg?raw=true)
+![UML](/design_patterns/structural/facade_UML.gif)
 
 * Facade - фасад
 
