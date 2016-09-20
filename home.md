@@ -49,31 +49,31 @@
 
 + Базовые паттерны проектирования
     * Порождающие (Creational)
-        * [Абстрактная фабрика (Abstract factory)](https://bitbucket.org/firstmk/pmk/wiki/design_patterns/creational/abstract_factory)
-        * [Строитель (Builder)](https://bitbucket.org/firstmk/pmk/wiki/design_patterns/creational/builder)
-        * [Фабричный метод (Factory method)](https://bitbucket.org/firstmk/pmk/wiki/design_patterns/creational/factory_method)
-        * [Прототип (Prototype)](https://bitbucket.org/firstmk/pmk/wiki/design_patterns/creational/prototype)
-        * [Одиночка (Singleton)](https://bitbucket.org/firstmk/pmk/wiki/design_patterns/creational/singleton)
+        * [Абстрактная фабрика (Abstract factory)](/design_patterns/creational/abstract_factory.md)
+        * [Строитель (Builder)](/design_patterns/creational/builder.md)
+        * [Фабричный метод (Factory method)](/design_patterns/creational/factory_method.md)
+        * [Прототип (Prototype)](/design_patterns/creational/prototype.md)
+        * [Одиночка (Singleton)](/design_patterns/creational/singleton.md)
     * Структурные (Structural)
-        * [Адаптер (Adapter)](https://bitbucket.org/firstmk/pmk/wiki/design_patterns/structural/adapter)
-        * [Мост (Bridge)](https://bitbucket.org/firstmk/pmk/wiki/design_patterns/structural/bridge)
-        * [Компоновщик (Composite)](https://bitbucket.org/firstmk/pmk/wiki/design_patterns/structural/composite)
-        * [Декоратор (Decorator)](https://bitbucket.org/firstmk/pmk/wiki/design_patterns/structural/decorator)
-        * [Фасад (Facade)](https://bitbucket.org/firstmk/pmk/wiki/design_patterns/structural/facade)
-        * [Приспособленец (Flyweight)](https://bitbucket.org/firstmk/pmk/wiki/design_patterns/structural/flyweight)
-        * [Заместитель (Proxy)](https://bitbucket.org/firstmk/pmk/wiki/design_patterns/structural/proxy)
+        * [Адаптер (Adapter)](/design_patterns/structural/adapter.md)
+        * [Мост (Bridge)](/design_patterns/structural/bridge.md)
+        * [Компоновщик (Composite)](/design_patterns/structural/composite.md)
+        * [Декоратор (Decorator)](/design_patterns/structural/decorator.md)
+        * [Фасад (Facade)](/design_patterns/structural/facade.md)
+        * [Приспособленец (Flyweight)](/design_patterns/structural/flyweight.md)
+        * [Заместитель (Proxy)](/design_patterns/structural/proxy.md)
     * Поведенческие (Behavioral)
-        * [Цепочка обязанностей (Chain of responsibility)](https://bitbucket.org/firstmk/pmk/wiki/design_patterns/behavioral/chain_of_responsibility)
-        * [Команда (Command)](https://bitbucket.org/firstmk/pmk/wiki/design_patterns/behavioral/command)
-        * [Интерпретатор (Interpreter)](https://bitbucket.org/firstmk/pmk/wiki/design_patterns/behavioral/interpreter)
-        * [Итератор (Iterator)](https://bitbucket.org/firstmk/pmk/wiki/design_patterns/behavioral/iterator)
-        * [Посредник (Mediator)](https://bitbucket.org/firstmk/pmk/wiki/design_patterns/behavioral/mediator)
-        * [Хранитель (Memento)](https://bitbucket.org/firstmk/pmk/wiki/design_patterns/behavioral/momento)
-        * [Наблюдатель (Observer)](https://bitbucket.org/firstmk/pmk/wiki/design_patterns/behavioral/observer)
-        * [Состояние (State)](https://bitbucket.org/firstmk/pmk/wiki/design_patterns/behavioral/state)
-        * [Стратегия (Strategy)](https://bitbucket.org/firstmk/pmk/wiki/design_patterns/behavioral/strategy)
-        * [Шаблонный метод (Template method)](https://bitbucket.org/firstmk/pmk/wiki/design_patterns/behavioral/template_method)
-        * [Посетитель (Visitor)](https://bitbucket.org/firstmk/pmk/wiki/design_patterns/behavioral/visitor)
+        * [Цепочка обязанностей (Chain of responsibility)](/design_patterns/behavioral/chain_of_responsibility.md)
+        * [Команда (Command)](/design_patterns/behavioral/command.md)
+        * [Интерпретатор (Interpreter)](/design_patterns/behavioral/interpreter.md)
+        * [Итератор (Iterator)](/design_patterns/behavioral/iterator.md)
+        * [Посредник (Mediator)](/design_patterns/behavioral/mediator.md)
+        * [Хранитель (Memento)](/design_patterns/behavioral/momento.md)
+        * [Наблюдатель (Observer)](/design_patterns/behavioral/observer.md)
+        * [Состояние (State)](/design_patterns/behavioral/state.md)
+        * [Стратегия (Strategy)](/design_patterns/behavioral/strategy.md)
+        * [Шаблонный метод (Template method)](/design_patterns/behavioral/template_method.md)
+        * [Посетитель (Visitor)](/design_patterns/behavioral/visitor.md)
 
 + Составные паттерны проектирования
     * [Модель-Представление-Контроллер (MVC)](https://ru.wikipedia.org/wiki/Model-View-Controller)
@@ -179,7 +179,7 @@
 
 + Системы управления версиями
     * Git
-        * [Список команд](https://bitbucket.org/firstmk/pmk/wiki/technologies/version_control_systems/git/git_commands)
+        * [Список команд](/technologies/version_control_systems/git/git_commands.md)
 
 ### Литература
 
