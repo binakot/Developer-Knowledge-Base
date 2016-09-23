@@ -47,38 +47,103 @@
 
 ### Паттерны
 
-+ Базовые паттерны проектирования
++ [Базовые паттерны проектирования](https://ru.wikipedia.org/wiki/Шаблон_проектирования)
     * Порождающие (Creational)
-        * [Абстрактная фабрика (Abstract factory)](/design_patterns/creational/abstract_factory.md)
+        * [Абстрактная фабрика (Abstract factory) или Инструментарий (Kit)](/design_patterns/creational/abstract_factory.md)
         * [Строитель (Builder)](/design_patterns/creational/builder.md)
-        * [Фабричный метод (Factory method)](/design_patterns/creational/factory_method.md)
+        * [Фабричный метод (Factory Method) или Виртуальный конструктор (Virtual Constructor)](/design_patterns/creational/factory_method.md)
         * [Прототип (Prototype)](/design_patterns/creational/prototype.md)
         * [Одиночка (Singleton)](/design_patterns/creational/singleton.md)
     * Структурные (Structural)
         * [Адаптер (Adapter)](/design_patterns/structural/adapter.md)
-        * [Мост (Bridge)](/design_patterns/structural/bridge.md)
+        * [Мост (Bridge), Handle (описатель) или Тело (Body)](/design_patterns/structural/bridge.md)
         * [Компоновщик (Composite)](/design_patterns/structural/composite.md)
-        * [Декоратор (Decorator)](/design_patterns/structural/decorator.md)
+        * [Декоратор (Decorator) или Оболочка (Wrapper)](/design_patterns/structural/decorator.md)
         * [Фасад (Facade)](/design_patterns/structural/facade.md)
         * [Приспособленец (Flyweight)](/design_patterns/structural/flyweight.md)
-        * [Заместитель (Proxy)](/design_patterns/structural/proxy.md)
+        * [Заместитель (Proxy) или Суррогат (Surrogate)](/design_patterns/structural/proxy.md)
     * Поведенческие (Behavioral)
         * [Цепочка обязанностей (Chain of responsibility)](/design_patterns/behavioral/chain_of_responsibility.md)
-        * [Команда (Command)](/design_patterns/behavioral/command.md)
+        * [Команда (Command), Действие (Action) или Транзакция (Транзакция)](/design_patterns/behavioral/command.md)
         * [Интерпретатор (Interpreter)](/design_patterns/behavioral/interpreter.md)
-        * [Итератор (Iterator)](/design_patterns/behavioral/iterator.md)
+        * [Итератор (Iterator) или Курсор (Cursor)](/design_patterns/behavioral/iterator.md)
         * [Посредник (Mediator)](/design_patterns/behavioral/mediator.md)
         * [Хранитель (Memento)](/design_patterns/behavioral/momento.md)
-        * [Наблюдатель (Observer)](/design_patterns/behavioral/observer.md)
+        * [Наблюдатель (Observer), Опубликовать - подписаться (Publish - Subscribe) или Delegation Event Model](/design_patterns/behavioral/observer.md)
         * [Состояние (State)](/design_patterns/behavioral/state.md)
         * [Стратегия (Strategy)](/design_patterns/behavioral/strategy.md)
         * [Шаблонный метод (Template method)](/design_patterns/behavioral/template_method.md)
         * [Посетитель (Visitor)](/design_patterns/behavioral/visitor.md)
 
++ [Общие шаблоны распределения обязанностей (General Responsibility Assignment Software Patterns, GRASP)](https://ru.wikipedia.org/wiki/GRASP)
+    * Порождающие (Creational)
+        * Создатель экземпляров класса (Creator)
+    * Структурные (Structural)
+        * Информационный эксперт (Information Expert)
+        * Низкая связанность (Low Coupling)
+        * Устойчивый к изменениям (Protected Variations)
+    * Поведенческие (Behavioral)
+        * Не разговаривайте с неизвестными (Don't talk to strangers)
+        * Высокое зацепление (High Cohesion)
+        * Контроллер (Controller)
+        * Полиморфизм (Polymorphism)
+        * Искусственный (Pure Fabrication)
+        * Перенаправление (Indirection)
+
 + Составные паттерны проектирования
     * [Модель-Представление-Контроллер (MVC)](https://ru.wikipedia.org/wiki/Model-View-Controller)
 
 + [Архитектурные паттерны](https://en.wikipedia.org/wiki/Architectural_pattern)
+    * Системные паттерны
+        * Сервисно-ориентированная архитектура
+        * Вертикальное масштабирование
+        * Горизонтальное масштабирование
+        * Отложенные вычисления
+        * Асинхронная обработка
+        * Конвейерная обработка
+        * Использование толстого клиента
+        * Кеширование
+        * Функциональное разделение
+        * Шардинг
+        * Виртуальные шарды
+        * Центральный диспетчер
+        * Репликация
+        * Партиционирование
+        * Кластеризация
+        * Денормализация
+        * Введение избыточности
+        * Параллельное выполнение
+    * Структурные паттерны
+        * Репозиторий
+        * Клиент/сервер
+        * Обьектно - ориентированный, Модель предметной области (Domain Model), модуль таблицы (Data Mapper)
+        * Многоуровневая система (Layers) или абстрактная машина
+        * Потоки данных (конвейер или фильтр)
+    * Паттерны управления
+        * Паттерны централизованного управления
+            * Вызов - возврат (сценарий транзакции - частный случай)
+            * Диспетчер
+        * Паттерны управления, основанные на событиях
+            * Передача сообщений
+            * Управляемый прерываниями
+        * Паттерны, обеспечивающие взаимодействие с базой данных
+            * Активная запись (Active Record)
+            * Единица работы (Unit Of Work)
+            * Загрузка по требованию (Lazy Load)
+            * Коллекция обьектов (Identity Map)
+            * Множество записей (Record Set)
+            * Наследование с одной таблицей (Single Table Inheritance)
+            * Наследование с таблицами для каждого класса (Class Table Inheritance)
+            * Оптимистическая автономная блокировка (Optimistic Offline Lock)
+            * Отображение с помощью внешних ключей
+            * Отображение с помощью таблицы ассоциаций (Association Table Mapping)
+            * Пессимистическая автономная блокировка (Pessimistic Offline Lock)
+            * Поле идентификации (Identity Field)
+            * Преобразователь данных (Data Mapper)
+            * Cохранение сеанса на стороне клиента (Client Session State)
+            * Cохранение сеанса на стороне сервера (Server Session State)
+            * Шлюз записи данных (Row Data Gateway)
+            * Шлюз таблицы данных (Table Data Gateway)
 
 + [J2EE паттерны](https://ru.wikipedia.org/wiki/Шаблоны_J2EE)
 
@@ -231,3 +296,4 @@
 ### Полезное
 
 + [Вопросы на собеседование Junior Java Developer и ответы на них](https://jsehelper.blogspot.ru/2016/01/blog-post.html)
++ [Статья "Java: Русские буквы и не только..."](http://www.javaportal.ru/java/articles/ruschars/ruschars.html)
