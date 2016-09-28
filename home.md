@@ -45,7 +45,7 @@
             * [Плавная сортировка (Smooth sort) - O(n*log(n))](https://ru.wikipedia.org/wiki/Плавная_сортировка)
             * [Быстрая сортировка, сортировка Хоара (Quick sort) - O(n*log(n))](https://ru.wikipedia.org/wiki/Быстрая_сортировка)
 
-+ Другое
++ Дополнительно
     * [VisuAlgo - визуализации структур данных и алгоритмов](http://visualgo.net/)
 
 ### Паттерны
