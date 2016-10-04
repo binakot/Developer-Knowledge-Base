@@ -298,5 +298,7 @@
 
 ### Полезное
 
++ [Первоисточник Java документации](https://docs.oracle.com/javase/8/docs/api/)
++ [Первоисточник Java практик](https://www.javacodegeeks.com/)
 + [Вопросы на собеседование Junior Java Developer и ответы на них](https://jsehelper.blogspot.ru/2016/01/blog-post.html)
 + [Статья "Java: Русские буквы и не только..."](http://www.javaportal.ru/java/articles/ruschars/ruschars.html)
