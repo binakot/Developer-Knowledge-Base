@@ -50,6 +50,21 @@
 
 ### Паттерны
 
++ [Общие шаблоны распределения обязанностей (General Responsibility Assignment Software Patterns, GRASP)](https://ru.wikipedia.org/wiki/GRASP)
+    * Порождающие (Creational)
+        * Создатель экземпляров класса (Creator)
+    * Структурные (Structural)
+        * Информационный эксперт (Information Expert)
+        * Низкая связанность (Low Coupling)
+        * Устойчивый к изменениям (Protected Variations)
+    * Поведенческие (Behavioral)
+        * Не разговаривайте с неизвестными (Don't talk to strangers)
+        * Высокое зацепление (High Cohesion)
+        * Контроллер (Controller)
+        * Полиморфизм (Polymorphism)
+        * Искусственный (Pure Fabrication)
+        * Перенаправление (Indirection)
+
 + [Базовые паттерны проектирования](https://ru.wikipedia.org/wiki/Шаблон_проектирования)
     * Порождающие (Creational)
         * [Абстрактная фабрика (Abstract factory) или Инструментарий (Kit)](/design_patterns/creational/abstract_factory.md)
@@ -77,21 +92,6 @@
         * [Стратегия (Strategy)](/design_patterns/behavioral/strategy.md)
         * [Шаблонный метод (Template method)](/design_patterns/behavioral/template_method.md)
         * [Посетитель (Visitor)](/design_patterns/behavioral/visitor.md)
-
-+ [Общие шаблоны распределения обязанностей (General Responsibility Assignment Software Patterns, GRASP)](https://ru.wikipedia.org/wiki/GRASP)
-    * Порождающие (Creational)
-        * Создатель экземпляров класса (Creator)
-    * Структурные (Structural)
-        * Информационный эксперт (Information Expert)
-        * Низкая связанность (Low Coupling)
-        * Устойчивый к изменениям (Protected Variations)
-    * Поведенческие (Behavioral)
-        * Не разговаривайте с неизвестными (Don't talk to strangers)
-        * Высокое зацепление (High Cohesion)
-        * Контроллер (Controller)
-        * Полиморфизм (Polymorphism)
-        * Искусственный (Pure Fabrication)
-        * Перенаправление (Indirection)
 
 + Составные паттерны проектирования
     * [Модель-Представление-Контроллер (MVC)](https://ru.wikipedia.org/wiki/Model-View-Controller)
@@ -193,6 +193,22 @@
 
 ### Технологии
 
++ Стек Java
+    * Платформы
+        * [Java SE - Java Platform, Standard Edition](http://www.oracle.com/technetwork/java/javase/tech/index.html)
+        * [Java EE - Java Platform, Enterprise Edition](http://www.oracle.com/technetwork/java/javaee/tech/index.html)
+        * [Java ME - Java Platform, Micro Edition](http://www.oracle.com/technetwork/java/embedded/javame/index.html)
+        * [JavaFX](http://www.oracle.com/technetwork/java/javafx/overview/index.html)
+        * [Java Card](http://www.oracle.com/technetwork/java/embedded/javacard/overview/index.html)
+    * Библиотеки и прочее
+        * [Better Java](https://github.com/cxxr/better-java)
+        * [Design patterns implemented in Java](http://java-design-patterns.com/patterns/)
+        * [Modern Java - A Guide to Java 8](https://github.com/winterbe/java8-tutorial)
+        * [Awesome Java - A curated list of awesome Java frameworks, libraries and software](https://java.libhunt.com/)
+        * [Список полезных ссылок для Java программиста](https://github.com/Vedenin/useful-java-links/tree/master/link-rus)
+        * [Java EE 7 Samples](https://github.com/javaee-samples/javaee7-samples)
+        * [Java EE 7 Examples](https://github.com/glassfish/javaee7-examples)
+
 + Стек .NET
     * Платформы
         * [Платформа .NET Framework](https://ru.wikipedia.org/wiki/.NET_Framework)
@@ -222,22 +238,6 @@
         * [Платформа Portable.NET](https://ru.wikipedia.org/wiki/Portable.NET)
     * Библиотеки и прочее
         * [Awesome .NET - A collection of Awesome .NET libraries, tools & frameworks](https://dotnet.libhunt.com/)
-
-+ Стек Java
-    * Платформы
-        * [Java SE - Java Platform, Standard Edition](http://www.oracle.com/technetwork/java/javase/tech/index.html)
-        * [Java EE - Java Platform, Enterprise Edition](http://www.oracle.com/technetwork/java/javaee/tech/index.html)
-        * [Java ME - Java Platform, Micro Edition](http://www.oracle.com/technetwork/java/embedded/javame/index.html)
-        * [JavaFX](http://www.oracle.com/technetwork/java/javafx/overview/index.html)
-        * [Java Card](http://www.oracle.com/technetwork/java/embedded/javacard/overview/index.html)
-    * Библиотеки и прочее
-        * [Better Java](https://github.com/cxxr/better-java)
-        * [Design patterns implemented in Java](http://java-design-patterns.com/patterns/)
-        * [Modern Java - A Guide to Java 8](https://github.com/winterbe/java8-tutorial)
-        * [Awesome Java - A curated list of awesome Java frameworks, libraries and software](https://java.libhunt.com/)
-        * [Список полезных ссылок для Java программиста](https://github.com/Vedenin/useful-java-links/tree/master/link-rus)
-        * [Java EE 7 Samples](https://github.com/javaee-samples/javaee7-samples)
-        * [Java EE 7 Examples](https://github.com/glassfish/javaee7-examples)
 
 + Системы управления базами данных
     * PostgreSQL
