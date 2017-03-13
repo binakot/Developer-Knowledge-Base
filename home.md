@@ -74,7 +74,7 @@
         * [Одиночка (Singleton)](/design_patterns/creational/singleton.md)
     * Структурные (Structural)
         * [Адаптер (Adapter)](/design_patterns/structural/adapter.md)
-        * [Мост (Bridge), Handle (описатель) или Тело (Body)](/design_patterns/structural/bridge.md)
+        * [Мост (Bridge) или Описатель (Handle) / Тело (Body)](/design_patterns/structural/bridge.md)
         * [Компоновщик (Composite)](/design_patterns/structural/composite.md)
         * [Декоратор (Decorator) или Оболочка (Wrapper)](/design_patterns/structural/decorator.md)
         * [Фасад (Facade)](/design_patterns/structural/facade.md)
@@ -82,23 +82,25 @@
         * [Заместитель (Proxy) или Суррогат (Surrogate)](/design_patterns/structural/proxy.md)
     * Поведенческие (Behavioral)
         * [Цепочка обязанностей (Chain of responsibility)](/design_patterns/behavioral/chain_of_responsibility.md)
-        * [Команда (Command), Действие (Action) или Транзакция (Транзакция)](/design_patterns/behavioral/command.md)
+        * [Команда (Command), Действие (Action) или Транзакция (Transaction)](/design_patterns/behavioral/command.md)
         * [Интерпретатор (Interpreter)](/design_patterns/behavioral/interpreter.md)
         * [Итератор (Iterator) или Курсор (Cursor)](/design_patterns/behavioral/iterator.md)
         * [Посредник (Mediator)](/design_patterns/behavioral/mediator.md)
         * [Хранитель (Memento)](/design_patterns/behavioral/momento.md)
-        * [Наблюдатель (Observer), Опубликовать - подписаться (Publish - Subscribe) или Delegation Event Model](/design_patterns/behavioral/observer.md)
+        * [Наблюдатель (Observer), Опубликовать / подписаться (Publish - Subscribe) или Delegation Event Model](/design_patterns/behavioral/observer.md)
         * [Состояние (State)](/design_patterns/behavioral/state.md)
         * [Стратегия (Strategy)](/design_patterns/behavioral/strategy.md)
         * [Шаблонный метод (Template method)](/design_patterns/behavioral/template_method.md)
         * [Посетитель (Visitor)](/design_patterns/behavioral/visitor.md)
 
 + Составные паттерны проектирования
-    * [Модель-Представление-Контроллер (MVC)](https://ru.wikipedia.org/wiki/Model-View-Controller)
+    * [Model-View-Controller (MVC)](https://ru.wikipedia.org/wiki/Model-View-Controller)
+    * [Model-View-Presenter (MVP)](https://ru.wikipedia.org/wiki/Model-View-Presenter)
+    * [Model-View-ViewModel (MVVM)](https://ru.wikipedia.org/wiki/Model-View-ViewModel)
 
 + [Архитектурные паттерны](https://en.wikipedia.org/wiki/Architectural_pattern)
     * Системные паттерны
-        * Сервисно-ориентированная архитектура
+        * [Сервисно-ориентированная архитектура (SOA)](https://ru.wikipedia.org/wiki/Сервис-ориентированная_архитектура)
         * Вертикальное масштабирование
         * Горизонтальное масштабирование
         * Отложенные вычисления
@@ -119,7 +121,8 @@
     * Структурные паттерны
         * Репозиторий
         * Клиент/сервер
-        * Обьектно - ориентированный, Модель предметной области (Domain Model), модуль таблицы (Data Mapper)
+        * Модель предметной области (Domain Model) 
+        * Модуль таблицы (Data Mapper)
         * Многоуровневая система (Layers) или абстрактная машина
         * Потоки данных (конвейер или фильтр)
     * Паттерны управления
@@ -143,8 +146,8 @@
             * Пессимистическая автономная блокировка (Pessimistic Offline Lock)
             * Поле идентификации (Identity Field)
             * Преобразователь данных (Data Mapper)
-            * Cохранение сеанса на стороне клиента (Client Session State)
-            * Cохранение сеанса на стороне сервера (Server Session State)
+            * Сохранение сеанса на стороне клиента (Client Session State)
+            * Сохранение сеанса на стороне сервера (Server Session State)
             * Шлюз записи данных (Row Data Gateway)
             * Шлюз таблицы данных (Table Data Gateway)
 
