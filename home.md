@@ -29,6 +29,7 @@
     * [Очередь (Queue)](https://ru.wikipedia.org/wiki/Очередь_(программирование))
     * [Граф (Graph)](https://ru.wikipedia.org/wiki/Объектный_граф)
     * [Дерево (Tree)](https://ru.wikipedia.org/wiki/Дерево_(структура_данных))
+    * [Хеш-таблица (Hash table)](https://ru.wikipedia.org/wiki/Хеш-таблица)
 
 + Алгоритмы обработки данных
     * [Сорировки](https://ru.wikipedia.org/wiki/Алгоритм_сортировки)
@@ -46,7 +47,8 @@
             * [Быстрая сортировка, сортировка Хоара (Quick sort) - O(n*log(n))](https://ru.wikipedia.org/wiki/Быстрая_сортировка)
 
 + Дополнительно
-    * [VisuAlgo - визуализации структур данных и алгоритмов](http://visualgo.net/)
+    * [AlgoList - алгоритмы и методы](http://algolist.manual.ru)
+    * [VisuAlgo - визуализации структур данных и алгоритмов](http://visualgo.net)    
 
 ### Паттерны
 
@@ -97,6 +99,8 @@
     * [Model-View-Controller (MVC)](https://ru.wikipedia.org/wiki/Model-View-Controller)
     * [Model-View-Presenter (MVP)](https://ru.wikipedia.org/wiki/Model-View-Presenter)
     * [Model-View-ViewModel (MVVM)](https://ru.wikipedia.org/wiki/Model-View-ViewModel)
+    * [Flux](http://fluxxor.com/what-is-flux.html)
+    * [VIPER for iOS Apps](https://www.objc.io/issues/13-architecture/viper)
 
 + [Архитектурные паттерны](https://en.wikipedia.org/wiki/Architectural_pattern)
     * Системные паттерны
@@ -259,9 +263,10 @@
     * [Чистый код - Роберт К. Мартин](http://www.ozon.ru/context/detail/id/5011068/)
 
 + Структуры и алгоритмы обработки данных
-    * [Абстракция данных и решение задач на С++. Стены и зеркала - Фрэнк М. Каррано, Джанет Дж. Причард](http://www.ozon.ru/context/detail/id/1435484/)
     * [Алгоритмы. Построение и анализ - Томас Х. Кормен, Чарльз И. Лейзерсон](https://www.ozon.ru/context/detail/id/33769775/)
+    * [Абстракция данных и решение задач на С++. Стены и зеркала - Фрэнк М. Каррано, Джанет Дж. Причард](http://www.ozon.ru/context/detail/id/1435484/)    
     * [Алгоритмы на C++ - Роберт Седжвик](http://www.ozon.ru/context/detail/id/31924296/)
+    * [Структуры данных и алгоритмы в Java - Роберт Лафоре](https://www.ozon.ru/context/detail/id/23529814/)
 
 + Паттерны
     * [Паттерны проектирования - "Банда четырех" (Gang of Four, GoF)](http://www.ozon.ru/context/detail/id/2457392/)
@@ -277,6 +282,7 @@
 + Java
     * Общее
         * [Философия Java - Брюс Эккель](https://www.ozon.ru/context/detail/id/30425811/)
+        * [Java. Эффективное программирование - Джошуа Блох](https://www.ozon.ru/context/detail/id/1259354/)
     * Многопоточное программирование
     	* [Java Concurrency in Practice - Дуг Ли, Брайан Готц, Тим Пайерлс, Джошуа Блох, Джозеф Боубир, Дэвид Холмс](http://www.ozon.ru/context/detail/id/3174887/)
     * Java EE
@@ -304,4 +310,3 @@
 + [Первоисточник Java документации](https://docs.oracle.com/javase/8/docs/api/)
 + [Первоисточник Java практик](https://www.javacodegeeks.com/)
 + [Вопросы на собеседование Junior Java Developer и ответы на них](https://jsehelper.blogspot.ru/2016/01/blog-post.html)
-+ [Статья "Java: Русские буквы и не только..."](http://www.javaportal.ru/java/articles/ruschars/ruschars.html)
