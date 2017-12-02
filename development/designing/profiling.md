@@ -6,7 +6,7 @@ TODO Добавить определение и краткое описание
 
 [Статья на Википедии](https://ru.wikipedia.org/wiki/Сборка_мусора)
 
-### JAVA ###
+### Java ###
 
 TODO Сборка мусора в JVM
 
@@ -18,6 +18,3 @@ TODO Сборка мусора в JVM
 
     * [Understanding Garbage Collection Logs](https://plumbr.eu/blog/garbage-collection/understanding-garbage-collection-logs)
     
-### .NET ###
-
-TODO Сборка мусора в CLR

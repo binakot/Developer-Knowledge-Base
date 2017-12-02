@@ -100,6 +100,8 @@
     * [Model-View-Presenter (MVP)](https://ru.wikipedia.org/wiki/Model-View-Presenter)
     * [Model-View-ViewModel (MVVM)](https://ru.wikipedia.org/wiki/Model-View-ViewModel)
     * [Flux](http://fluxxor.com/what-is-flux.html)
+    * [Redux](https://redux.js.org)
+    * [MobX](https://mobx.js.org)
     * [VIPER for iOS Apps](https://www.objc.io/issues/13-architecture/viper)
 
 + [Архитектурные паттерны](https://en.wikipedia.org/wiki/Architectural_pattern)
@@ -241,16 +243,22 @@
             * [Internet Information Services (IIS)](https://ru.wikipedia.org/wiki/Internet_Information_Services)
             * [Microsoft Azure](https://ru.wikipedia.org/wiki/Microsoft_Azure)
             * [Microsoft Message Queuing (MSMQ)](https://en.wikipedia.org/wiki/Microsoft_Message_Queuing)
-        * [Платформа Mono](https://ru.wikipedia.org/wiki/Mono)
-        * [Платформа Portable.NET](https://ru.wikipedia.org/wiki/Portable.NET)
+        * [Платформа .NET Core](https://docs.microsoft.com/ru-ru/dotnet/core)
+        * [Платформа Mono](https://ru.wikipedia.org/wiki/Mono)        
+        * [Платформа Portable.NET](https://ru.wikipedia.org/wiki/Portable.NET)        
     * Библиотеки и прочее
         * [Awesome .NET - A collection of Awesome .NET libraries, tools & frameworks](https://dotnet.libhunt.com/)
 
-+ Системы управления базами данных
-    * PostgreSQL
-        * [PostgreSQL - официальный сайт](https://www.postgresql.org/)
-        * [Postgres Professional - российский вендор PostgreSQL](https://postgrespro.ru/)
-        * [Постгресмен - группа разработчиков PostgreSQL](http://postgresmen.ru/)
++ Хранилища данных и кэши
+    * SQL
+        * PostgreSQL
+            * [PostgreSQL - официальный сайт](https://www.postgresql.org/)
+            * [Postgres Professional - российский вендор PostgreSQL](https://postgrespro.ru/)
+            * [Постгресмен - группа разработчиков PostgreSQL](http://postgresmen.ru/)
+    * NoSQL
+        * MongoDB
+            * [MongoDB - официальный сайт](https://www.mongodb.com/)
+            * [MongoDB - статья на Википедии](https://ru.wikipedia.org/wiki/MongoDB)
 
 + Системы управления версиями
     * Git
