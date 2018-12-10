@@ -1,26 +1,6 @@
-## База знаний разработчика
+# База знаний разработчика
 
-### Разработка
-
-+ Кодирование
-    * [Именование](/development/coding/naming.md)
-    * [Форматирование](/development/coding/formatting.md)
-    * [Комментарии](/development/coding/comments.md)
-    * [Операторы](/development/coding/operators.md)
-    * [Методы](/development/coding/methods.md)
-    * [Классы](/development/coding/classes.md)
-    * [Обработка ошибок](/development/coding/error_handling.md)
-    * [Многопоточность](/development/coding/multithreading.md)
-+ Проектирование
-    * [Архитектура](/development/designing/architecture.md)
-    * [Тестирование](/development/designing/testing.md)
-    * [Отладка](/development/designing/debugging.md)
-    * [Рефакторинг](/development/designing/refactoring.md)
-    * [Профилирование](/development/designing/profiling.md)
-    * [Оптимизация](/development/designing/optimization.md)
-    * [Интеграция](/development/designing/integration.md)
-
-### Структуры и алгоритмы обработки данных
+## Структуры и алгоритмы обработки данных
 
 + Структуры данных
     * [Массив (Array)](https://ru.wikipedia.org/wiki/Массив_(программирование))
@@ -29,28 +9,50 @@
     * [Очередь (Queue)](https://ru.wikipedia.org/wiki/Очередь_(программирование))
     * [Граф (Graph)](https://ru.wikipedia.org/wiki/Объектный_граф)
     * [Дерево (Tree)](https://ru.wikipedia.org/wiki/Дерево_(структура_данных))
-    * [Хеш-таблица (Hash table)](https://ru.wikipedia.org/wiki/Хеш-таблица)
+    * [Хеш-таблица (Hash map)](https://ru.wikipedia.org/wiki/Хеш-таблица)
 
 + Алгоритмы обработки данных
-    * [Сорировки](https://ru.wikipedia.org/wiki/Алгоритм_сортировки)
-        * Устройчивые
+    * [Сортировки](https://ru.wikipedia.org/wiki/Алгоритм_сортировки)
+        * Устойчивые
             * [Сортировка пузырьком (Bubble sort) - O(n^2)](https://ru.wikipedia.org/wiki/Сортировка_пузырьком)
-            * [Сортировка перемешиванием (Cocktail sort) - O(n^2)](https://ru.wikipedia.org/wiki/Сортировка_перемешиванием)
             * [Сортировка вставками (Insertion sort) - O(n^2)](https://ru.wikipedia.org/wiki/Сортировка_вставками)
             * [Сортировка слиянием (Merge sort) - O(n*log(n))](https://ru.wikipedia.org/wiki/Сортировка_слиянием)
-            * [Сортировка бинарным деревом (Tree sort) - O(n*log(n))](https://ru.wikipedia.org/wiki/Сортировка_с_помощью_двоичного_дерева)
+            * [Сортировка с помощью двоичного дерева (Tree sort) - O(n*log(n))](https://ru.wikipedia.org/wiki/Сортировка_с_помощью_двоичного_дерева)
+            * [Сортировка Timsort - O(n*log(n))](https://ru.wikipedia.org/wiki/Timsort)
+            * [Блочная сортировка (Bucket sort) - O(n)](https://ru.wikipedia.org/wiki/Блочная_сортировка)
         * Неустойчивые
             * [Сортировка выбором (Selection sort) - O(n^2)](https://ru.wikipedia.org/wiki/Сортировка_выбором)
             * [Сортировка Шелла (Shell sort) - O(n*log2(n))](https://ru.wikipedia.org/wiki/Сортировка_Шелла)
-            * [Пирамидальная сортировка, сортировка кучей (Heap sort) - O(n*log(n))](https://ru.wikipedia.org/wiki/Пирамидальная_сортировка)
+            * [Пирамидальная сортировка (Heap sort) - O(n*log(n))](https://ru.wikipedia.org/wiki/Пирамидальная_сортировка)
             * [Плавная сортировка (Smooth sort) - O(n*log(n))](https://ru.wikipedia.org/wiki/Плавная_сортировка)
             * [Быстрая сортировка, сортировка Хоара (Quick sort) - O(n*log(n))](https://ru.wikipedia.org/wiki/Быстрая_сортировка)
 
++ [Сложность алгоритмов](https://ru.wikipedia.org/wiki/Временная_сложность_алгоритма)
+    * O(1) - константная
+    * O(n) — линейная
+    * O(log(n) — логарифмическая
+    * O(n*log(n)) - линеарифметический
+    * O(n^2) — квадратичная
+
 + Дополнительно
     * [AlgoList - алгоритмы и методы](http://algolist.manual.ru)
-    * [VisuAlgo - визуализации структур данных и алгоритмов](http://visualgo.net)    
+    * [VisuAlgo - визуализации структур данных и алгоритмов](http://visualgo.net)
+    * [Know Thy Complexities! - сложности основных структур данных и алгоритмов](http://bigocheatsheet.com)
 
-### Паттерны
++ Литература
+    * [Алгоритмы. Построение и анализ - Томас Х. Кормен, Чарльз И. Лейзерсон, Рональд Л. Ривест, Клиффорд Штайн](https://www.ozon.ru/context/detail/id/33769775)
+    * [Абстракция данных и решение задач на С++. Стены и зеркала - Фрэнк М. Каррано, Джанет Дж. Причард](http://www.ozon.ru/context/detail/id/1435484)    
+    * [Алгоритмы на C++ - Роберт Седжвик](http://www.ozon.ru/context/detail/id/31924296)
+    * [Алгоритмы на Java - Роберт Седжвик, Кевин Уэйн](https://www.ozon.ru/context/detail/id/18319699)
+    * [Структуры данных и алгоритмы в Java - Роберт Лафоре](https://www.ozon.ru/context/detail/id/23529814)
+    * [Грокаем алгоритмы. Иллюстрированное пособие для программистов и любопытствующих - Адитья Бхаргава](https://www.ozon.ru/context/detail/id/139296295)
+
++ Видео
+    * [Алгоритмы и структуры данных на Python 3 - Тимофей Хирьянов](https://www.youtube.com/playlist?list=PLRDzFCPr95fK7tr47883DFUbm4GeOjjc0)
+
+---
+
+## Паттерны
 
 + [Общие шаблоны распределения обязанностей (General Responsibility Assignment Software Patterns, GRASP)](https://ru.wikipedia.org/wiki/GRASP)
     * Порождающие (Creational)
@@ -67,7 +69,7 @@
         * Искусственный (Pure Fabrication)
         * Перенаправление (Indirection)
 
-+ [Базовые паттерны проектирования](https://ru.wikipedia.org/wiki/Шаблон_проектирования)
++ [Базовые паттерны проектирования (Gang of Four)](https://ru.wikipedia.org/wiki/Шаблон_проектирования)
     * Порождающие (Creational)
         * [Абстрактная фабрика (Abstract factory) или Инструментарий (Kit)](/design_patterns/creational/abstract_factory.md)
         * [Строитель (Builder)](/design_patterns/creational/builder.md)
@@ -95,16 +97,16 @@
         * [Шаблонный метод (Template method)](/design_patterns/behavioral/template_method.md)
         * [Посетитель (Visitor)](/design_patterns/behavioral/visitor.md)
 
-+ Составные паттерны проектирования
++ Архитектурные паттерны проектирования
     * [Model-View-Controller (MVC)](https://ru.wikipedia.org/wiki/Model-View-Controller)
     * [Model-View-Presenter (MVP)](https://ru.wikipedia.org/wiki/Model-View-Presenter)
     * [Model-View-ViewModel (MVVM)](https://ru.wikipedia.org/wiki/Model-View-ViewModel)
+    * [MobX](https://mobx.js.org)
     * [Flux](http://fluxxor.com/what-is-flux.html)
     * [Redux](https://redux.js.org)
-    * [MobX](https://mobx.js.org)
     * [VIPER for iOS Apps](https://www.objc.io/issues/13-architecture/viper)
 
-+ [Архитектурные паттерны](https://en.wikipedia.org/wiki/Architectural_pattern)
++ [Архитектурные системные паттерны](https://en.wikipedia.org/wiki/Architectural_pattern)
     * Системные паттерны
         * [Сервисно-ориентированная архитектура (SOA)](https://ru.wikipedia.org/wiki/Сервис-ориентированная_архитектура)
         * Вертикальное масштабирование
@@ -112,7 +114,6 @@
         * Отложенные вычисления
         * Асинхронная обработка
         * Конвейерная обработка
-        * Использование толстого клиента
         * Кеширование
         * Функциональное разделение
         * Шардинг
@@ -125,15 +126,15 @@
         * Введение избыточности
         * Параллельное выполнение
     * Структурные паттерны
-        * Репозиторий
-        * Клиент/сервер
+        * Репозиторий (Repository)
+        * Клиент/сервер (Client/Server)
         * Модель предметной области (Domain Model) 
         * Модуль таблицы (Data Mapper)
         * Многоуровневая система (Layers) или абстрактная машина
         * Потоки данных (конвейер или фильтр)
     * Паттерны управления
         * Паттерны централизованного управления
-            * Вызов - возврат (сценарий транзакции - частный случай)
+            * Вызов - возврат
             * Диспетчер
         * Паттерны управления, основанные на событиях
             * Передача сообщений
@@ -142,7 +143,7 @@
             * Активная запись (Active Record)
             * Единица работы (Unit Of Work)
             * Загрузка по требованию (Lazy Load)
-            * Коллекция обьектов (Identity Map)
+            * Коллекция объектов (Identity Map)
             * Множество записей (Record Set)
             * Наследование с одной таблицей (Single Table Inheritance)
             * Наследование с таблицами для каждого класса (Class Table Inheritance)
@@ -159,15 +160,32 @@
 
 + [J2EE паттерны](https://ru.wikipedia.org/wiki/Шаблоны_J2EE)
 
-+ [Паттерны игрового программирования](http://gameprogrammingpatterns.com/)
++ [Паттерны игрового программирования](http://gameprogrammingpatterns.com)
 
-### Парадигмы, принципы, стандарты и т.д.
++ Дополнительно
+    * [Обзор паттернов проектирования - Ольга Дубина](http://citforum.ru/SE/project/pattern)
 
-+ Парадигмы
-    * [Абстракция](https://ru.wikipedia.org/wiki/Абстракция_данных)
-    * [Инкапсуляция](https://ru.wikipedia.org/wiki/Инкапсуляция_(программирование))
-    * [Наследование](https://ru.wikipedia.org/wiki/Наследование_(программирование))
-    * [Полиморфизм](https://ru.wikipedia.org/wiki/Полиморфизм_(информатика))
++ Литература
+    * [Паттерны проектирования - "Банда четырех" (Gang of Four, GoF)](http://www.ozon.ru/context/detail/id/2457392)
+    * [Паттерны проектирования - Элизабет Фримен, Эрик Фримен, Кэти Сиерра, Берт Бейтс](https://www.ozon.ru/context/detail/id/20216992)
+    * [Шаблоны корпоративных приложений - Мартин Фаулер, Дейвид Райс](http://www.ozon.ru/context/detail/id/4884925)
+    * [Рефакторинг с использованием шаблонов - Джошуа Кериевски](http://www.ozon.ru/context/detail/id/2909721)
+
+---
+
+## Парадигмы, принципы, стандарты и т.д.
+
++ [Парадигмы программирования](https://ru.wikipedia.org/wiki/Парадигма_программирования)
+    * [Императивная](https://ru.wikipedia.org/wiki/Императивное_программирование)
+        * [Процедурная](https://ru.wikipedia.org/wiki/Процедурное_программирование)
+        * [Аспектно-ориентированная](https://ru.wikipedia.org/wiki/Аспектно-ориентированное_программирование)
+        * [Объектно-ориентированная](https://ru.wikipedia.org/wiki/ориентированное_программирование)
+            * [Абстракция](https://ru.wikipedia.org/wiki/Абстракция_данных)
+            * [Инкапсуляция](https://ru.wikipedia.org/wiki/Инкапсуляция_(программирование))
+            * [Наследование](https://ru.wikipedia.org/wiki/Наследование_(программирование))
+            * [Полиморфизм](https://ru.wikipedia.org/wiki/Полиморфизм_(информатика))
+    * [Декларативная](https://ru.wikipedia.org/wiki/Декларативное_программирование)
+        * [Функциональная](https://ru.wikipedia.org/wiki/Функциональное_программирование)
 
 + [Принципы](http://java-design-patterns.com/principles/)
     * [SOLID - 5 основных принципов ООП](https://ru.wikipedia.org/wiki/SOLID_(объектно-ориентированное_программирование))
@@ -200,23 +218,17 @@
     * [CRUD - «создать, прочесть, обновить, удалить»](https://ru.wikipedia.org/wiki/CRUD)
     * [F.I.R.S.T. - 5 характеристик тестов](https://pragprog.com/magazines/2012-01/unit-tests-are-first)
 
-### Технологии
++ Литература
+    * [Совершенный код - Стив Макконнелл](http://www.ozon.ru/context/detail/id/5508646)
+    * [Чистый код: создание, анализ и рефакторинг - Роберт К. Мартин](http://www.ozon.ru/context/detail/id/5011068)
+    * [Чистая архитектура. Искусство разработки программного обеспечения - Роберт Мартин](https://www.ozon.ru/context/detail/id/144499396)
+    * [Идеальный программист. Как стать профессионалом разработки ПО - 	Роберт Мартин](https://www.ozon.ru/context/detail/id/135465064)
+    * [Разработка требования к программному обеспечению - Карл И. Вигерс, Джой Битти](https://www.ozon.ru/context/detail/id/27995134)
+    * [Идеальная разработка ПО. Рецепты лучших программистов - Энди Орам, Грег Уилсон](https://www.ozon.ru/context/detail/id/7248898)
 
-+ Стек Java
-    * Платформы
-        * [Java SE - Java Platform, Standard Edition](http://www.oracle.com/technetwork/java/javase/tech/index.html)
-        * [Java EE - Java Platform, Enterprise Edition](http://www.oracle.com/technetwork/java/javaee/tech/index.html)
-        * [Java ME - Java Platform, Micro Edition](http://www.oracle.com/technetwork/java/embedded/javame/index.html)
-        * [JavaFX](http://www.oracle.com/technetwork/java/javafx/overview/index.html)
-        * [Java Card](http://www.oracle.com/technetwork/java/embedded/javacard/overview/index.html)
-    * Библиотеки и прочее
-        * [Better Java](https://github.com/cxxr/better-java)
-        * [Design patterns implemented in Java](http://java-design-patterns.com/patterns/)
-        * [Modern Java - A Guide to Java 8](https://github.com/winterbe/java8-tutorial)
-        * [Awesome Java - A curated list of awesome Java frameworks, libraries and software](https://java.libhunt.com/)
-        * [Список полезных ссылок для Java программиста](https://github.com/Vedenin/useful-java-links/tree/master/link-rus)
-        * [Java EE 7 Samples](https://github.com/javaee-samples/javaee7-samples)
-        * [Java EE 7 Examples](https://github.com/glassfish/javaee7-examples)
+---
+
+## Технологии
 
 + Стек .NET
     * Платформы
@@ -249,7 +261,23 @@
     * Библиотеки и прочее
         * [Awesome .NET - A collection of Awesome .NET libraries, tools & frameworks](https://dotnet.libhunt.com/)
 
-+ Хранилища данных и кэши
++ Стек Java
+    * Платформы
+        * [Java SE - Java Platform, Standard Edition](http://www.oracle.com/technetwork/java/javase/tech/index.html)
+        * [Java EE - Java Platform, Enterprise Edition](http://www.oracle.com/technetwork/java/javaee/tech/index.html)
+        * [Java ME - Java Platform, Micro Edition](http://www.oracle.com/technetwork/java/embedded/javame/index.html)
+        * [JavaFX](http://www.oracle.com/technetwork/java/javafx/overview/index.html)
+        * [Java Card](http://www.oracle.com/technetwork/java/embedded/javacard/overview/index.html)
+    * Библиотеки и прочее
+        * [Better Java](https://github.com/cxxr/better-java)
+        * [Design patterns implemented in Java](http://java-design-patterns.com/patterns/)
+        * [Modern Java - A Guide to Java 8](https://github.com/winterbe/java8-tutorial)
+        * [Awesome Java - A curated list of awesome Java frameworks, libraries and software](https://java.libhunt.com/)
+        * [Список полезных ссылок для Java программиста](https://github.com/Vedenin/useful-java-links/tree/master/link-rus)
+        * [Java EE 7 Samples](https://github.com/javaee-samples/javaee7-samples)
+        * [Java EE 7 Examples](https://github.com/glassfish/javaee7-examples)
+
++ Хранилища данных
     * SQL
         * PostgreSQL
             * [PostgreSQL - официальный сайт](https://www.postgresql.org/)
@@ -262,25 +290,14 @@
 
 + Системы управления версиями
     * Git
-        * [Список команд](/technologies/version_control_systems/git/git_commands.md)
+
++ Системы управления проектами
+    * Jira
+    
++ Непрерывная интеграции и доставка (continuous integration and continuous delivery, CI/CD)
+    * Jenkins
 
 ### Литература
-
-+ Разработка
-    * [Совершенный код - Стив Макконнелл](http://www.ozon.ru/context/detail/id/5508646/)
-    * [Чистый код - Роберт К. Мартин](http://www.ozon.ru/context/detail/id/5011068/)
-
-+ Структуры и алгоритмы обработки данных
-    * [Алгоритмы. Построение и анализ - Томас Х. Кормен, Чарльз И. Лейзерсон](https://www.ozon.ru/context/detail/id/33769775/)
-    * [Абстракция данных и решение задач на С++. Стены и зеркала - Фрэнк М. Каррано, Джанет Дж. Причард](http://www.ozon.ru/context/detail/id/1435484/)    
-    * [Алгоритмы на C++ - Роберт Седжвик](http://www.ozon.ru/context/detail/id/31924296/)
-    * [Структуры данных и алгоритмы в Java - Роберт Лафоре](https://www.ozon.ru/context/detail/id/23529814/)
-
-+ Паттерны
-    * [Паттерны проектирования - "Банда четырех" (Gang of Four, GoF)](http://www.ozon.ru/context/detail/id/2457392/)
-    * [Паттерны проектирования - Элизабет Фримен, Эрик Фримен, Кэти Сиерра, Берт Бейтс](https://www.ozon.ru/context/detail/id/20216992/)
-    * [Шаблоны корпоративных приложений - Мартин Фаулер, Дейвид Райс](http://www.ozon.ru/context/detail/id/4884925/)
-    * [Рефакторинг с использованием шаблонов - Джошуа Кериевски](http://www.ozon.ru/context/detail/id/2909721/)
 
 + C#
     * [CLR via C#. Программирование на платформе Microsoft.NET Framework 4.5 на языке C# - Джеффри Рихтер](https://www.ozon.ru/context/detail/id/21236101/)
@@ -312,9 +329,3 @@
 
 + Системы управления версиями
     * [Git для профессионального программиста - Скотт Чакон, Бен Штрауб](http://www.ozon.ru/context/detail/id/33575056/)
-
-### Полезное
-
-+ [Первоисточник Java документации](https://docs.oracle.com/javase/8/docs/api/)
-+ [Первоисточник Java практик](https://www.javacodegeeks.com/)
-+ [Вопросы на собеседование Junior Java Developer и ответы на них](https://jsehelper.blogspot.ru/2016/01/blog-post.html)
