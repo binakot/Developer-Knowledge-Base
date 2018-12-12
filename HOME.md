@@ -1,5 +1,25 @@
 # База знаний разработчика
 
+## Разработка
+
++ Кодирование
+    * Именование
+    * Форматирование
+    * Комментарии
+    * Операторы
+    * Методы
+    * Классы
+    * Обработка ошибок
+    * Многопоточность
++ Проектирование
+    * Архитектура
+    * Тестирование
+    * Отладка
+    * Рефакторинг
+    * Профилирование
+    * Оптимизация
+    * Интеграция
+
 ## Структуры и алгоритмы обработки данных
 
 + Структуры данных
@@ -54,7 +74,7 @@
 
 ## Паттерны
 
-+ [Общие шаблоны распределения обязанностей (General Responsibility Assignment Software Patterns, GRASP)](https://ru.wikipedia.org/wiki/GRASP)
++ [Общие паттерны распределения обязанностей (General Responsibility Assignment Software Patterns, GRASP)](https://ru.wikipedia.org/wiki/GRASP)
     * Порождающие (Creational)
         * Создатель экземпляров класса (Creator)
     * Структурные (Structural)
@@ -230,102 +250,91 @@
 
 ## Технологии
 
-+ Стек .NET
-    * Платформы
-        * [Платформа .NET Framework](https://ru.wikipedia.org/wiki/.NET_Framework)
-            * [Common Language Infrastructure (CLI)](https://ru.wikipedia.org/wiki/Common_Language_Infrastructure)
-            * [Common Language Runtime (CLR)](https://ru.wikipedia.org/wiki/Common_Language_Runtime)
-            * [Common Intermediate Language (CIL)](https://ru.wikipedia.org/wiki/Common_Intermediate_Language)
-            * [Base Class Library (BCL)](https://ru.wikipedia.org/wiki/Base_Class_Library)
-            * [Component Object Model (COM)](https://ru.wikipedia.org/wiki/Component_Object_Model)
-            * [Windows Runtime (WinRT)](https://ru.wikipedia.org/wiki/Windows_Runtime)
-            * [Windows Communication Foundation (WCF)](https://ru.wikipedia.org/wiki/Windows_Communication_Foundation)
-            * [Windows Workflow Foundation (WF)](https://ru.wikipedia.org/wiki/Windows_Workflow_Foundation)
-            * [Службы Windows (Windows Services)](https://ru.wikipedia.org/wiki/Службы_Windows)
-            * [C# (CSharp)](https://ru.wikipedia.org/wiki/C_Sharp)
-            * [Language Integrated Query (LINQ)](https://ru.wikipedia.org/wiki/Language_Integrated_Query)
-            * [ActiveX Data Object для .NET (ADO.NET)](https://ru.wikipedia.org/wiki/ADO.NET)
-            * [ADO.NET Entity Framework (EF)](https://ru.wikipedia.org/wiki/ADO.NET_Entity_Framework)
-            * [Transact-SQL (T-SQL)](https://ru.wikipedia.org/wiki/Transact-SQL)
-            * [Active Server Pages для .NET (ASP.NET)](https://ru.wikipedia.org/wiki/ASP.NET)
-            * [ASP.NET MVC Framework](https://ru.wikipedia.org/wiki/ASP.NET_MVC_Framework)
-            * [Windows Forms](https://ru.wikipedia.org/wiki/Windows_Forms)
-            * [Windows Presentation Foundation (WPF)](https://ru.wikipedia.org/wiki/Windows_Presentation_Foundation)
-            * [Microsoft Silverlight](https://ru.wikipedia.org/wiki/Microsoft_Silverlight)
-            * [Internet Information Services (IIS)](https://ru.wikipedia.org/wiki/Internet_Information_Services)
-            * [Microsoft Azure](https://ru.wikipedia.org/wiki/Microsoft_Azure)
-            * [Microsoft Message Queuing (MSMQ)](https://en.wikipedia.org/wiki/Microsoft_Message_Queuing)
-        * [Платформа .NET Core](https://docs.microsoft.com/ru-ru/dotnet/core)
-        * [Платформа Mono](https://ru.wikipedia.org/wiki/Mono)        
-        * [Платформа Portable.NET](https://ru.wikipedia.org/wiki/Portable.NET)        
-    * Библиотеки и прочее
-        * [Awesome .NET - A collection of Awesome .NET libraries, tools & frameworks](https://dotnet.libhunt.com/)
-
-+ Стек Java
-    * Платформы
-        * [Java SE - Java Platform, Standard Edition](http://www.oracle.com/technetwork/java/javase/tech/index.html)
-        * [Java EE - Java Platform, Enterprise Edition](http://www.oracle.com/technetwork/java/javaee/tech/index.html)
-        * [Java ME - Java Platform, Micro Edition](http://www.oracle.com/technetwork/java/embedded/javame/index.html)
-        * [JavaFX](http://www.oracle.com/technetwork/java/javafx/overview/index.html)
-        * [Java Card](http://www.oracle.com/technetwork/java/embedded/javacard/overview/index.html)
-    * Библиотеки и прочее
-        * [Better Java](https://github.com/cxxr/better-java)
-        * [Design patterns implemented in Java](http://java-design-patterns.com/patterns/)
-        * [Modern Java - A Guide to Java 8](https://github.com/winterbe/java8-tutorial)
-        * [Awesome Java - A curated list of awesome Java frameworks, libraries and software](https://java.libhunt.com/)
-        * [Список полезных ссылок для Java программиста](https://github.com/Vedenin/useful-java-links/tree/master/link-rus)
-        * [Java EE 7 Samples](https://github.com/javaee-samples/javaee7-samples)
-        * [Java EE 7 Examples](https://github.com/glassfish/javaee7-examples)
++ Платформы
+    * .NET
+        * Языки
+            * C#
+            * F#
+        * Платформы
+            * .NET Framework
+            * .NET Core
+        * Фреймворки, библиотеки
+            * WinForms
+            * WPF
+            * UWP
+            * Xamarin
+        * Литература
+            * [CLR via C#. Программирование на платформе Microsoft.NET Framework 4.5 на языке C# - Джеффри Рихтер](https://www.ozon.ru/context/detail/id/21236101)
+            * [Язык программирования C# 5.0 и платформа .NET 4.5 - Эндрю Троелсен](http://www.ozon.ru/context/detail/id/19916784)
+            * [WPF: Windows Presentation Foundation в .NET 4.5 с примерами на C# 5.0 для профессионалов - Мэтью Макдональд](https://www.ozon.ru/context/detail/id/21462174)
+    * JDK
+        * Языки
+            * Java
+            * Kotlin
+            * Groovy
+        * Платформы
+            * Java SE
+            * Java EE
+        * Фреймворки, библиотеки
+            * Spring
+            * Spring Boot
+            * Spring Cloud
+            * Netty
+        * Литература
+            * [Философия Java - Брюс Эккель](https://www.ozon.ru/context/detail/id/30425811)
+            * [Java. Эффективное программирование - Джошуа Блох](https://www.ozon.ru/context/detail/id/1259354)
+            * [Java Concurrency in Practice - Дуг Ли, Брайан Готц, Тим Пайерлс, Джошуа Блох, Джозеф Боубир, Дэвид Холмс](http://www.ozon.ru/context/detail/id/3174887)
 
 + Хранилища данных
     * SQL
-        * PostgreSQL
-            * [PostgreSQL - официальный сайт](https://www.postgresql.org/)
-            * [Postgres Professional - российский вендор PostgreSQL](https://postgrespro.ru/)
-            * [Постгресмен - группа разработчиков PostgreSQL](http://postgresmen.ru/)
+        * [SQLite](https://www.sqlite.org)
+        * [MySQL](https://www.mysql.com)
+        * [PostgreSQL](https://www.postgresql.org)
+            * [Postgres Professional - российский вендор PostgreSQL](https://postgrespro.ru)
+            * [Работа с PostgreSQL: настройка и масштабирование](http://postgresql.leopard.in.ua)
+            * [Администрирование PostgreSQL 9. Книга рецептов - Саймон Ригс, Ханну Кросинг](https://www.ozon.ru/context/detail/id/19133383)
     * NoSQL
-        * MongoDB
-            * [MongoDB - официальный сайт](https://www.mongodb.com/)
-            * [MongoDB - статья на Википедии](https://ru.wikipedia.org/wiki/MongoDB)
+        * [Redis](https://redis.io)
+        * [MongoDB](https://www.mongodb.com)
+
++ Очереди и брокеры сообщений
+    * [RabbitMQ](https://www.rabbitmq.com)
 
 + Системы управления версиями
-    * Git
+    * [Git](https://git-scm.com)
+        * [Git для профессионального программиста - Скотт Чакон, Бен Штрауб](http://www.ozon.ru/context/detail/id/33575056)
+
++ Системы управления репозиториями
+    * [GitHub](https://github.com)
+    * [BitBucket](https://bitbucket.org)
+    * [GitLab](https://gitlab.com)
 
 + Системы управления проектами
-    * Jira
+    * [RedMine](https://www.redmine.org)
+    * [Jira](https://ru.atlassian.com/software/jira)
+
++ Бинарные репозитории и хранилища артефактов
+    * [Artifactory](https://jfrog.com/artifactory)
+    * [Nexus](https://www.sonatype.com/nexus-repository-sonatype)
+
++ Непрерывная интеграции и доставка (CI/CD)
+    * [Jenkins](https://jenkins.io)
+
++ Статические анализаторы кода и качества проектов
+    * [SonarQube](https://www.sonarqube.org)
+    * [PVS-Studio](https://www.viva64.com/ru/pvs-studio)
+
++ API документация
+    * [Swagger](https://swagger.io)
+
++ Метрики и логирование
+    * [Elasticsearch + Logstash + Kibana (ELK)](https://www.elastic.co/elk-stack)
+    * [Prometheus](https://prometheus.io)
+    * [Grafana](https://grafana.com)
+
++ Виртуализация и контейнеризация
+    * [Docker](https://www.docker.com)
     
-+ Непрерывная интеграции и доставка (continuous integration and continuous delivery, CI/CD)
-    * Jenkins
-
-### Литература
-
-+ C#
-    * [CLR via C#. Программирование на платформе Microsoft.NET Framework 4.5 на языке C# - Джеффри Рихтер](https://www.ozon.ru/context/detail/id/21236101/)
-    * [Язык программирования C# 5.0 и платформа .NET 4.5 - Эндрю Троелсен](http://www.ozon.ru/context/detail/id/19916784/)
-    * [WPF: Windows Presentation Foundation в .NET 4.5 с примерами на C# 5.0 для профессионалов - Мэтью Макдональд](https://www.ozon.ru/context/detail/id/21462174/)
-
-+ Java
-    * Общее
-        * [Философия Java - Брюс Эккель](https://www.ozon.ru/context/detail/id/30425811/)
-        * [Java. Эффективное программирование - Джошуа Блох](https://www.ozon.ru/context/detail/id/1259354/)
-    * Многопоточное программирование
-    	* [Java Concurrency in Practice - Дуг Ли, Брайан Готц, Тим Пайерлс, Джошуа Блох, Джозеф Боубир, Дэвид Холмс](http://www.ozon.ru/context/detail/id/3174887/)
-    * Java EE
-        * [Изучаем Java EE 7 - Энтони Гонсалвес](https://www.ozon.ru/context/detail/id/27663406/)
-        * [Java EE 7 и сервер приложений GlassFish 4 - Дэвид Хеффельфингер](http://www.ozon.ru/context/detail/id/33686213/)
-        * [Core J2EE Patterns: Best Practices and Design Strategies](http://www.corej2eepatterns.com/)
-        * [Java EE. Паттерны проектирования для профессионалов - Мурат Йенер, Алекс Фидом](https://www.ozon.ru/context/detail/id/34187042/)
-
-+ Android
-    * [Android 4. Программирование приложений для планшетных компьютеров и смартфонов - Рето Майер](http://www.ozon.ru/context/detail/id/21469100/)
-
-+ Web
-    * [Создаем динамические веб-сайты с помощью PHP, MySQL, JavaScript, CSS и HTML5 - Робин Никсон](http://www.ozon.ru/context/detail/id/136593716/)
-
-+ Системы управления базами данных
-    * PostgreSQL
-        * [Работа с PostgreSQL: настройка и масштабирование](http://postgresql.leopard.in.ua/)
-        * [Администрирование PostgreSQL 9. Книга рецептов - Саймон Ригс, Ханну Кросинг](https://www.ozon.ru/context/detail/id/19133383/)
-
-+ Системы управления версиями
-    * [Git для профессионального программиста - Скотт Чакон, Бен Штрауб](http://www.ozon.ru/context/detail/id/33575056/)
++ Управление кластером
+    * [Docker Swarm](https://docs.docker.com/engine/swarm)
+    * [Kubernetes](https://kubernetes.io)
