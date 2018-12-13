@@ -11,6 +11,7 @@
     * Классы
     * Обработка ошибок
     * Многопоточность
+    
 + Проектирование
     * Архитектура
     * Тестирование
@@ -19,6 +20,8 @@
     * Профилирование
     * Оптимизация
     * Интеграция
+
+---
 
 ## Структуры и алгоритмы обработки данных
 
@@ -193,7 +196,7 @@
 
 ---
 
-## Парадигмы, принципы, стандарты и т.д.
+## Парадигмы, принципы, стандарты
 
 + [Парадигмы программирования](https://ru.wikipedia.org/wiki/Парадигма_программирования)
     * [Императивная](https://ru.wikipedia.org/wiki/Императивное_программирование)
@@ -275,6 +278,7 @@
         * Платформы
             * Java SE
             * Java EE
+            * Java ME
         * Фреймворки, библиотеки
             * Spring
             * Spring Boot
@@ -299,10 +303,28 @@
 
 + Очереди и брокеры сообщений
     * [RabbitMQ](https://www.rabbitmq.com)
+    * [Kafka](https://kafka.apache.org)
+
++ Управление кластером
+    * [Docker Swarm](https://docs.docker.com/engine/swarm)
+    * [Kubernetes](https://kubernetes.io)
+
++ Метрики и логирование
+    * [Elasticsearch + Logstash + Kibana (ELK)](https://www.elastic.co/elk-stack)
+    * [Prometheus](https://prometheus.io)
+    * [Grafana](https://grafana.com)
+
++ Непрерывная интеграции и доставка (CI/CD)
+    * [Jenkins](https://jenkins.io)
+    * [Travis](https://travis-ci.org)
+
++ API документация
+    * [Swagger](https://swagger.io)
 
 + Системы управления версиями
     * [Git](https://git-scm.com)
         * [Git для профессионального программиста - Скотт Чакон, Бен Штрауб](http://www.ozon.ru/context/detail/id/33575056)
+    * [Mercurial](https://www.mercurial-scm.org)
 
 + Системы управления репозиториями
     * [GitHub](https://github.com)
@@ -313,28 +335,22 @@
     * [RedMine](https://www.redmine.org)
     * [Jira](https://ru.atlassian.com/software/jira)
 
++ Средства сборки проектов и управления зависимостями
+    * [NuGet](https://www.nuget.org)
+    * [Maven](https://maven.apache.org)
+    * [Gradle](https://gradle.org)
+
 + Бинарные репозитории и хранилища артефактов
-    * [Artifactory](https://jfrog.com/artifactory)
     * [Nexus](https://www.sonatype.com/nexus-repository-sonatype)
-
-+ Непрерывная интеграции и доставка (CI/CD)
-    * [Jenkins](https://jenkins.io)
-
-+ Статические анализаторы кода и качества проектов
-    * [SonarQube](https://www.sonarqube.org)
+    * [Artifactory](https://jfrog.com/artifactory)
+    
++ Анализаторы кода
     * [PVS-Studio](https://www.viva64.com/ru/pvs-studio)
-
-+ API документация
-    * [Swagger](https://swagger.io)
-
-+ Метрики и логирование
-    * [Elasticsearch + Logstash + Kibana (ELK)](https://www.elastic.co/elk-stack)
-    * [Prometheus](https://prometheus.io)
-    * [Grafana](https://grafana.com)
-
+    * [Gradle quality plugin](http://xvik.github.io/gradle-quality-plugin)
+    * [SonarQube](https://www.sonarqube.org)
+    
 + Виртуализация и контейнеризация
+    * [VirtualBox](https://www.virtualbox.org)
+    * [VMWare](https://www.vmware.com/ru.html)
     * [Docker](https://www.docker.com)
     
-+ Управление кластером
-    * [Docker Swarm](https://docs.docker.com/engine/swarm)
-    * [Kubernetes](https://kubernetes.io)
