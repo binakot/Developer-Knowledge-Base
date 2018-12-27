@@ -3,23 +3,23 @@
 ## Разработка
 
 + Кодирование
-    * Именование
-    * Форматирование
-    * Комментарии
-    * Операторы
-    * Методы
-    * Классы
-    * Обработка ошибок
-    * Многопоточность
+    * [Именование](https://ru.hexlet.io/blog/posts/naming-in-programming)
+    * [Форматирование](https://habr.com/company/geekbrains/blog/270001)
+    * [Комментарии](https://habr.com/post/178653)
+    * [Операторы](https://ru.wikipedia.org/wiki/Оператор_(программирование))
+    * [Методы](https://ru.wikipedia.org/wiki/Метод_(программирование))
+    * [Классы](https://ru.wikipedia.org/wiki/Класс_(программирование))
+    * [Обработка ошибок](https://ru.wikipedia.org/wiki/Обработка_исключений)
+    * [Многопоточность](https://ru.wikipedia.org/wiki/Многопоточность)
     
 + Проектирование
-    * Архитектура
-    * Тестирование
-    * Отладка
-    * Рефакторинг
-    * Профилирование
-    * Оптимизация
-    * Интеграция
+    * [Архитектура](https://ru.wikipedia.org/wiki/Архитектура_программного_обеспечения)
+    * [Тестирование](https://habr.com/post/279535)
+    * [Отладка](https://ru.wikipedia.org/wiki/Отладка_программы)
+    * [Рефакторинг](https://refactoring.guru/ru)
+    * [Профилирование](https://ru.wikipedia.org/wiki/Профилирование_(информатика))
+    * [Оптимизация](https://ru.wikipedia.org/wiki/Оптимизация_(информатика))
+    * [Интеграция](https://habr.com/company/trinion/blog/245615)
 
 ---
 
@@ -59,7 +59,7 @@
 
 + Дополнительно
     * [AlgoList - алгоритмы и методы](http://algolist.manual.ru)
-    * [VisuAlgo - визуализации структур данных и алгоритмов](http://visualgo.net)
+    * [VisuAlgo - визуализации структур данных и алгоритмов](https://visualgo.net/ru)
     * [Know Thy Complexities! - сложности основных структур данных и алгоритмов](http://bigocheatsheet.com)
 
 + Литература
@@ -120,10 +120,11 @@
         * [Шаблонный метод (Template method)](/design_patterns/behavioral/template_method.md)
         * [Посетитель (Visitor)](/design_patterns/behavioral/visitor.md)
 
-+ Архитектурные паттерны проектирования
++ [Паттерны представления](https://manojjaggavarapu.wordpress.com/2012/05/02/presentation-patterns-mvc-mvp-pm-mvvm)
     * [Model-View-Controller (MVC)](https://ru.wikipedia.org/wiki/Model-View-Controller)
     * [Model-View-Presenter (MVP)](https://ru.wikipedia.org/wiki/Model-View-Presenter)
     * [Model-View-ViewModel (MVVM)](https://ru.wikipedia.org/wiki/Model-View-ViewModel)
+    * [Presentation-Model (PM)](https://martinfowler.com/eaaDev/PresentationModel.html)
     * [MobX](https://mobx.js.org)
     * [Flux](http://fluxxor.com/what-is-flux.html)
     * [Redux](https://redux.js.org)
@@ -132,54 +133,56 @@
 + [Архитектурные системные паттерны](https://en.wikipedia.org/wiki/Architectural_pattern)
     * Системные паттерны
         * [Сервисно-ориентированная архитектура (SOA)](https://ru.wikipedia.org/wiki/Сервис-ориентированная_архитектура)
-        * Вертикальное масштабирование
-        * Горизонтальное масштабирование
-        * Отложенные вычисления
-        * Асинхронная обработка
-        * Конвейерная обработка
-        * Кеширование
-        * Функциональное разделение
-        * Шардинг
-        * Виртуальные шарды
-        * Центральный диспетчер
-        * Репликация
-        * Партиционирование
-        * Кластеризация
-        * Денормализация
-        * Введение избыточности
-        * Параллельное выполнение
+        * Вертикальное масштабирование (Vertical scaling)
+        * Горизонтальное масштабирование (Horizontal scaling)
+        * Отложенные вычисления (Deferred calculations)
+        * Асинхронная обработка (Asynchronous processing)
+        * Конвейерная обработка (Pipeline processing)
+        * Кэширование (Caching)
+        * Функциональное разделение (Functional separation)
+        * Шардинг (Sharding)
+        * Виртуальные шарды (Virtual shards)
+        * Центральный диспетчер (Central dispatcher)
+        * Репликация (Replication)
+        * Партиционирование (Partitioning)
+        * Кластеризация (Clustering)
+        * Денормализация (Denormalization)
+        * Избыточность (Redundancy)
+        * Параллельное выполнение (Parallel execution)
     * Структурные паттерны
         * Репозиторий (Repository)
-        * Клиент/сервер (Client/Server)
-        * Модель предметной области (Domain Model) 
-        * Модуль таблицы (Data Mapper)
-        * Многоуровневая система (Layers) или абстрактная машина
+        * Клиент/сервер (Client/server)
+        * Модель предметной области (Domain model) 
+        * Модуль таблицы (Data mapper)
+        * Многоуровневая система или абстрактная машина (Layers)
         * Потоки данных (конвейер или фильтр)
     * Паттерны управления
         * Паттерны централизованного управления
             * Вызов - возврат
-            * Диспетчер
+            * Диспетчер (Dispatcher)
         * Паттерны управления, основанные на событиях
-            * Передача сообщений
-            * Управляемый прерываниями
+            * Передача сообщений (Messaging)
+            * Управляемый прерываниями (Interrupt driven)
         * Паттерны, обеспечивающие взаимодействие с базой данных
-            * Активная запись (Active Record)
-            * Единица работы (Unit Of Work)
-            * Загрузка по требованию (Lazy Load)
-            * Коллекция объектов (Identity Map)
-            * Множество записей (Record Set)
-            * Наследование с одной таблицей (Single Table Inheritance)
-            * Наследование с таблицами для каждого класса (Class Table Inheritance)
-            * Оптимистическая автономная блокировка (Optimistic Offline Lock)
-            * Отображение с помощью внешних ключей
-            * Отображение с помощью таблицы ассоциаций (Association Table Mapping)
-            * Пессимистическая автономная блокировка (Pessimistic Offline Lock)
-            * Поле идентификации (Identity Field)
-            * Преобразователь данных (Data Mapper)
-            * Сохранение сеанса на стороне клиента (Client Session State)
-            * Сохранение сеанса на стороне сервера (Server Session State)
-            * Шлюз записи данных (Row Data Gateway)
-            * Шлюз таблицы данных (Table Data Gateway)
+            * Активная запись (Active record)
+            * Единица работы (Unit of work)
+            * Загрузка по требованию (Lazy load)
+            * Коллекция объектов (Identity map)
+            * Множество записей (Record set)
+            * Наследование с одной таблицей (Single table inheritance)
+            * Наследование с таблицами для каждого класса (Class table inheritance)
+            * Оптимистическая автономная блокировка (Optimistic offline lock)
+            * Отображение с помощью внешних ключей (Foreign key mapping)
+            * Отображение с помощью таблицы ассоциаций (Association table mapping)
+            * Пессимистическая автономная блокировка (Pessimistic offline lock)
+            * Поле идентификации (Identity field)
+            * Преобразователь данных (Data mapper)
+            * Сохранение сеанса на стороне клиента (Client session state)
+            * Сохранение сеанса на стороне сервера (Server session state)
+            * Шлюз записи данных (Row data gateway)
+            * Шлюз таблицы данных (Table data gateway)
+
++ [Java паттерны](https://java-design-patterns.com/patterns)
 
 + [J2EE паттерны](https://ru.wikipedia.org/wiki/Шаблоны_J2EE)
 
@@ -273,8 +276,9 @@
     * JDK
         * Языки
             * Java
-            * Kotlin
             * Groovy
+            * Kotlin
+            * Scala
         * Платформы
             * Java SE
             * Java EE
@@ -294,10 +298,11 @@
         * [SQLite](https://www.sqlite.org)
         * [MySQL](https://www.mysql.com)
         * [PostgreSQL](https://www.postgresql.org)
-            * [Postgres Professional - российский вендор PostgreSQL](https://postgrespro.ru)
+            * [Документация от Postgres Professional](https://postgrespro.ru)
             * [Работа с PostgreSQL: настройка и масштабирование](http://postgresql.leopard.in.ua)
             * [Администрирование PostgreSQL 9. Книга рецептов - Саймон Ригс, Ханну Кросинг](https://www.ozon.ru/context/detail/id/19133383)
     * NoSQL
+        * [Memcached](https://memcached.org)
         * [Redis](https://redis.io)
         * [MongoDB](https://www.mongodb.com)
 
@@ -308,6 +313,8 @@
 + Управление кластером
     * [Docker Swarm](https://docs.docker.com/engine/swarm)
     * [Kubernetes](https://kubernetes.io)
+    * [Marathon](https://mesosphere.github.io/marathon)
+    * [Mesos](http://mesos.apache.org)
 
 + Метрики и логирование
     * [Elasticsearch + Logstash + Kibana (ELK)](https://www.elastic.co/elk-stack)
@@ -320,6 +327,7 @@
 
 + API документация
     * [Swagger](https://swagger.io)
+    * [AsciiDoc](http://asciidoc.org)
 
 + Системы управления версиями
     * [Git](https://git-scm.com)
@@ -336,9 +344,11 @@
     * [Jira](https://ru.atlassian.com/software/jira)
 
 + Средства сборки проектов и управления зависимостями
-    * [NuGet](https://www.nuget.org)
+    * [Make](https://www.gnu.org/software/make)
+    * [Ant](https://ant.apache.org)
     * [Maven](https://maven.apache.org)
     * [Gradle](https://gradle.org)
+    * [NuGet](https://www.nuget.org)
 
 + Бинарные репозитории и хранилища артефактов
     * [Nexus](https://www.sonatype.com/nexus-repository-sonatype)
@@ -346,8 +356,8 @@
     
 + Анализаторы кода
     * [PVS-Studio](https://www.viva64.com/ru/pvs-studio)
-    * [Gradle quality plugin](http://xvik.github.io/gradle-quality-plugin)
     * [SonarQube](https://www.sonarqube.org)
+    * [Gradle quality plugin](http://xvik.github.io/gradle-quality-plugin)
     
 + Виртуализация и контейнеризация
     * [VirtualBox](https://www.virtualbox.org)
