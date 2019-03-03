@@ -59,6 +59,7 @@
 
 + Дополнительно
     * [AlgoList - алгоритмы и методы](http://algolist.manual.ru)
+    * [MAXimal - 145 алгоритмов c кратким описанием и реализацией на C++.](http://e-maxx.ru/algo)
     * [VisuAlgo - визуализации структур данных и алгоритмов](https://visualgo.net/ru)
     * [Know Thy Complexities! - сложности основных структур данных и алгоритмов](http://bigocheatsheet.com)
 
