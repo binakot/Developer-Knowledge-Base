@@ -26,6 +26,10 @@
 
 ## Дополнительно
 
+### Латинский алфавит
+
+![Latin alphabet](/latin_alphabet.jpg)
+
 ### Греческий алфавит
 
 ![Greek alphabet](/greek_alphabet.jpg)
