@@ -46,6 +46,30 @@
 
 * "Большой ком грязи" (big ball of mud)
 
+#### Распределенные системы (Distributed Systems)
+
+ACID
+* Atomicity - Атомарность
+* Consistency - Согласованность
+* Isolation - Изолированность
+* Durability - Прочность
+
+ACID 2.0
+* Associative - Ассоциативный
+* Commutative - Коммутативный
+* Idempotent - Идемпотентный
+* Distributed - Распределенный
+
+CAP
+* Consistency - Согласованность
+* Availability - Доступность
+* Partition tolerance - Устойчивость к разделению
+
+BASE
+* Basically Available - Базовая доступность
+* Soft-state - мягкое состояние
+* Eventually consistent - Согласованность в конечном счете
+
 ---
 
 ## Дополнительно
